@@ -1,0 +1,13 @@
+#! /bin/bash
+
+set -v
+
+# Memory usage and statistics
+
+cat /proc/meminfo
+
+free
+
+vmstat 1 10
+
+# Script Finished

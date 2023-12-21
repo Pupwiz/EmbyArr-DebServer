@@ -1,0 +1,37 @@
+#!/bin/bash
+radarrkey=$(awk -F '[<>]' '/ApiKey/{print $3}' /home/media/.config/Radarr/config.xml)
+echo $radarrkey
+if [ -z $radarrkey ]; then exit 1; else
+sed -i '/"radarrkey"/c api_key = "'"$radarrkey"'"' /etc/unpackerr/unpackerr.conf
+
+sonarrkey=$(awk -F '[<>]' '/ApiKey/{print $3}' /home/media/.config/Sonarr/config.xml)
+echo $sonarrkey
+sed -i '/"sonarrkey"/c api_key = "'"$sonarrkey"'"' /etc/unpackerr/unpackerr.conf
+if [ -z $sonarrkey ]; then exit 1; else
+
+readarrkey=$(awk -F '[<>]' '/ApiKey/{print $3}' /home/media/.config/Readarr/config.xml)
+echo $readarrkey
+sed -i '/"readarrkey"/c api_key = "'"$readarrkey"'"' /etc/unpackerr/unpackerr.conf
+if [ -z $readarr ]; then exit 1; else
+
+lidarrkey=$(awk -F '[<>]' '/ApiKey/{print $3}' /home/media/.config/Lidarr/config.xml)
+echo $lidarrkey
+sed -i '/"lidarrkey"/c api_key = "'"$lidarrkey"'"' /etc/unpackerr/unpackerr.conf
+if [ -z $lidarrkey ]; then exit 1; else
+
+## Edit SQL file for installed keys
+cat > /opt/prowlarr.sql <<EOF
+DELETE FROM Applications;
+INSERT INTO Applications VALUES(1,'Radarr','Radarr',replace('{\n  "prowlarrUrl": "http://localhost:9696/prowlarr",\n  "baseUrl": "http://localhost:7878/radarr",\n  "apiKey": "$radarrkey",\n  "syncCategories": [\n    2000,\n    2010,\n    2020,\n    2030,\n    2040,\n    2045,\n    2050,\n    2060,\n    2070,\n    2080\n  ]\n}','\n',char(10)),'RadarrSettings',2,'[]');
+INSERT INTO Applications VALUES(2,'Sonarr','Sonarr',replace('{\n  "prowlarrUrl": "http://localhost:9696/prowlarr",\n  "baseUrl": "http://localhost:8989/sonarr",\n  "apiKey": "$sonarrkey",\n  "syncCategories": [\n    5000,\n    5010,\n    5020,\n    5030,\n    5040,\n    5045,\n    5050,\n    5070\n  ],\n  "animeSyncCategories": [\n    5070\n  ]\n}','\n',char(10)),'SonarrSettings',2,'[]');
+INSERT INTO Applications VALUES(3,'Lidarr','Lidarr',replace('{\n  "prowlarrUrl": "http://localhost:9696/prowlarr",\n  "baseUrl": "http://localhost:8686/lidarr",\n  "apiKey": "$lidarrkey",\n  "syncCategories": [\n    3000,\n    3010,\n    3030,\n    3040,\n    3050,\n    3060\n  ]\n}','\n',char(10)),'LidarrSettings',2,'[]');
+INSERT INTO Applications VALUES(4,'Readarr','Readarr',replace('{\n  "prowlarrUrl": "http://localhost:9696/prowlarr",\n  "baseUrl": "http://localhost:5757/readarr",\n  "apiKey": "$readarrkey",\n  "syncCategories": [\n    3030,\n    7000,\n    7010,\n    7020,\n    7030,\n    7040,\n    7050,\n    7060\n  ]\n}','\n',char(10)),'ReadarrSettings',2,'[]');
+EOF
+## Load configs into  prowlarr DB
+cat /opt/prowlarr.sql | sqlite3 /home/media/.config/Prowlarr/prowlarr.db
+echo "Prowlarr database updates completed..!"  | wall -n
+rm /opt/prowlarr.sql
+crontab -u root -l | grep -v '@reboot /home/media/lateradarrkey.database'  | crontab -u root -
+crontab -u root -l | grep -v '*/2 * * * * /home/media/lateradarrkey.database'  | crontab -u root -
+fi
+rm -- "$0"

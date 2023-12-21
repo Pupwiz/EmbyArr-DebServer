@@ -1,0 +1,3 @@
+#!/bin/bash
+echo 'Cron started, running ytdl-sub...'
+ytdl-sub --config=/opt/ytdl/ytconfig.yaml sub /opt/ytdl/ytsub.yaml

@@ -1,0 +1,19 @@
+[Unit]
+Description=qBittorrent Command Line Client
+After=navpn.service network-online.target 
+Wants=network-online.target systemd-networkd-wait-online.service
+Requires=navpn.service
+StartLimitIntervalSec=500
+StartLimitBurst=5
+[Service]
+User=root
+Type=forking
+Restart=always
+RestartSec=5s
+ExecStart=/usr/bin/qbittorrent-nox -d --webui-port=8080'
+Nice=10
+StandardError=null
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target

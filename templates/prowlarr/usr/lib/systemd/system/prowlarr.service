@@ -1,0 +1,14 @@
+[Unit]
+Description=Prowlarr Daemon
+After=syslog.target network.target
+[Service]
+User=media
+Group=media
+Type=simple
+
+ExecStart=/opt/Prowlarr/Prowlarr -nobrowser -data=/home/media/.config/Prowlarr/
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

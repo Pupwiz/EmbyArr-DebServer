@@ -1,0 +1,19 @@
+<Config>
+  <LogLevel>info</LogLevel>
+  <UrlBase>/prowlarr</UrlBase>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <Branch>master</Branch>
+  <AuthenticationMethod>External</AuthenticationMethod>
+  <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
+  <InstanceName>Prowlarr</InstanceName>
+  <BindAddress>*</BindAddress>
+  <Port>9696</Port>
+  <SslPort>6969</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <LaunchBrowser>False</LaunchBrowser>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+  <UpdateAutomatically>True</UpdateAutomatically>
+  <ApiKey>7d992ac615fd4724bbb9aea931752c32</ApiKey>
+</Config>

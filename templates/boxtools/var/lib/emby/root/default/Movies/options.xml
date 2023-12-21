@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnableArchiveMediaFiles>false</EnableArchiveMediaFiles>
+  <EnablePhotos>true</EnablePhotos>
+  <EnableRealtimeMonitor>true</EnableRealtimeMonitor>
+  <EnableMarkerDetection>false</EnableMarkerDetection>
+  <EnableMarkerDetectionDuringLibraryScan>false</EnableMarkerDetectionDuringLibraryScan>
+  <EnableChapterImageExtraction>false</EnableChapterImageExtraction>
+  <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
+  <DownloadImagesInAdvance>false</DownloadImagesInAdvance>
+  <PathInfos>
+    <MediaPathInfo>
+      <Path>/home/media/movie</Path>
+    </MediaPathInfo>
+  </PathInfos>
+  <IgnoreHiddenFiles>false</IgnoreHiddenFiles>
+  <IgnoreFileExtensions />
+  <SaveLocalMetadata>false</SaveLocalMetadata>
+  <SaveMetadataHidden>false</SaveMetadataHidden>
+  <SaveLocalThumbnailSets>false</SaveLocalThumbnailSets>
+  <ImportMissingEpisodes>false</ImportMissingEpisodes>
+  <ImportPlaylists>true</ImportPlaylists>
+  <EnableAutomaticSeriesGrouping>true</EnableAutomaticSeriesGrouping>
+  <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
+  <EnableAudioResume>false</EnableAudioResume>
+  <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
+  <PreferredMetadataLanguage>en</PreferredMetadataLanguage>
+  <PreferredImageLanguage>en</PreferredImageLanguage>
+  <ContentType>movies</ContentType>
+  <MetadataCountryCode>US</MetadataCountryCode>
+  <SeasonZeroDisplayName>Specials</SeasonZeroDisplayName>
+  <Name>Movies</Name>
+  <MetadataSavers />
+  <DisabledLocalMetadataReaders />
+  <LocalMetadataReaderOrder>
+    <string>Nfo</string>
+  </LocalMetadataReaderOrder>
+  <DisabledLyricsFetchers />
+  <SaveLyricsWithMedia>true</SaveLyricsWithMedia>
+  <LyricsDownloadMaxAgeDays>0</LyricsDownloadMaxAgeDays>
+  <LyricsFetcherOrder />
+  <LyricsDownloadLanguages />
+  <DisabledSubtitleFetchers />
+  <SubtitleFetcherOrder>
+    <string>Open Subtitles</string>
+  </SubtitleFetcherOrder>
+  <SkipSubtitlesIfEmbeddedSubtitlesPresent>true</SkipSubtitlesIfEmbeddedSubtitlesPresent>
+  <SkipSubtitlesIfAudioTrackMatches>true</SkipSubtitlesIfAudioTrackMatches>
+  <SubtitleDownloadLanguages>
+    <string>en</string>
+  </SubtitleDownloadLanguages>
+  <SubtitleDownloadMaxAgeDays>90</SubtitleDownloadMaxAgeDays>
+  <RequirePerfectSubtitleMatch>true</RequirePerfectSubtitleMatch>
+  <SaveSubtitlesWithMedia>true</SaveSubtitlesWithMedia>
+  <ForcedSubtitlesOnly>true</ForcedSubtitlesOnly>
+  <TypeOptions>
+    <TypeOptions>
+      <Type>Movie</Type>
+      <MetadataFetchers>
+        <string>TheMovieDb</string>
+        <string>TheTVDB</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+        <string>TheTVDB</string>
+      </MetadataFetcherOrder>
+      <ImageFetchers>
+        <string>TheMovieDb</string>
+        <string>TheTVDB</string>
+        <string>FanArt</string>
+        <string>Screen Grabber</string>
+      </ImageFetchers>
+      <ImageFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>TheTVDB</string>
+        <string>FanArt</string>
+        <string>The Open Movie Database</string>
+        <string>Screen Grabber</string>
+      </ImageFetcherOrder>
+      <ImageOptions />
+    </TypeOptions>
+  </TypeOptions>
+  <CollapseSingleItemFolders>true</CollapseSingleItemFolders>
+  <EnableAdultMetadata>false</EnableAdultMetadata>
+  <ImportCollections>false</ImportCollections>
+  <MinCollectionItems>2</MinCollectionItems>
+  <MinResumePct>3</MinResumePct>
+  <MaxResumePct>90</MaxResumePct>
+  <MinResumeDurationSeconds>120</MinResumeDurationSeconds>
+  <ThumbnailImagesIntervalSeconds>10</ThumbnailImagesIntervalSeconds>
+  <SampleIgnoreSize>314572800</SampleIgnoreSize>
+</LibraryOptions>

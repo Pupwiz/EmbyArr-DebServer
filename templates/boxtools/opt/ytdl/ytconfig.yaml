@@ -1,0 +1,51 @@
+configuration:
+  working_directory: '/home/media/download/prep'
+  dl_aliases:
+    video: "--preset video"
+    video-url: "--download.url"
+    # changed from video-type: "--overrides.video_type"
+    tv-show-name: "--overrides.tv_show_name"
+    single-music-video: "--preset video --overrides.tv_show_name 'Music Video' --download.url"
+
+presets:
+  video:
+    output_options:
+      # changed from "/config/first_config/output_videos"
+      output_directory: "/home/media/yt/{tv_show_name_sanitized}"
+      # changed from "{video_path}.{ext}"
+      file_name: "{episode_path}.{ext}"
+      # changed from "{video_path}.{thumbnail_ext}"
+      thumbnail_name: "{episode_path}-thumb.{thumbnail_ext}"
+
+    overrides:
+      tv_show_name: "OVERRIDE IN SUBSCRIPTION"
+      season: "{upload_year}"
+      episode: "{upload_month}{upload_day_padded}"
+      episode_padded: "{upload_month_padded}{upload_day_padded}"
+      episode_file_name: "s{season}e{episode_padded}.{title_sanitized}"
+      episode_path: "Season {season}/{episode_file_name}"
+
+  playlist:
+    preset: "video"
+    output_options:
+      maintain_download_archive: True
+    ytdl_options:
+      break_on_existing: True
+
+  channel:
+    preset: "playlist"
+    # added: downloads channel avatar and banner to the output directory
+    download:
+       playlist_thumbnails:
+        - name: "poster.jpg"
+          uid: "avatar_uncropped"
+        - name: "banner.jpg"
+          uid: "banner_uncropped"
+
+  recent_videos:
+    date_range:
+      before: "now"
+      after: "today-2weeks"
+    output_options:
+      keep_files_after: "today-8weeks"
+

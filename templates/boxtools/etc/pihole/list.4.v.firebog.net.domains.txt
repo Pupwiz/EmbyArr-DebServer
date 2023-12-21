@@ -1,0 +1,1 @@
+ff05a094daca3bf9357faa4333f844d71d9cef12  /etc/pihole/list.4.v.firebog.net.domains

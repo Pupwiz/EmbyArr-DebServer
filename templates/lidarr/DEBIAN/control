@@ -1,0 +1,9 @@
+Package: lidarr
+Priority: extra
+Section: media
+Installed-Size: 63011924
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 3.2.2.5080 
+Provides: Lidarr
+Description: Lidarr music downloader 

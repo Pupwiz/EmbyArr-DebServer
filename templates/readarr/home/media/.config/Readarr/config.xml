@@ -1,0 +1,17 @@
+<Config>
+  <LogLevel>debug</LogLevel>
+  <UrlBase>/readarr</UrlBase>
+  <LaunchBrowser>True</LaunchBrowser>
+  <Port>5757</Port>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <Branch>nightly</Branch>
+  <AuthenticationMethod>None</AuthenticationMethod>
+  <BindAddress>*</BindAddress>
+  <SslPort>6868</SslPort>
+  <EnableSsl>False</EnableSsl>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
+  <UpdateAutomatically>True</UpdateAutomatically>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+  <InstanceName>Readarr</InstanceName>
+</Config>

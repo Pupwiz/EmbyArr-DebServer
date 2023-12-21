@@ -1,0 +1,1 @@
+%sudo ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown, /sbin/halt, /bin/systemctl suspend, /bin/systemctl hybrid-sleep

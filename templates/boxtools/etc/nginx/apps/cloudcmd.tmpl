@@ -1,0 +1,8 @@
+  location /cloudcmd {
+            proxy_pass http://127.0.0.1:8000;
+            subs_filter_types text/css text/xml;
+            sub_filter 'action="'  'action="cloudcmd/';
+            sub_filter 'href="'  'href="cloudcmd/';
+            sub_filter 'src="'  'src="cloudcmd/';
+            sub_filter_once off;
+    }

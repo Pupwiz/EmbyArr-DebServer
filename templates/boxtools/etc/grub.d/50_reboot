@@ -1,0 +1,12 @@
+#!/bin/sh
+cat <<EOF
+menuentry "System shutdown" {
+    echo "System shutting down..."
+    halt
+}
+menuentry "System restart" {
+    echo "System rebooting..."
+    reboot
+}
+EOF
+

@@ -1,0 +1,72 @@
+#!/bin/sh
+##Built around NGINX don't install apache2
+apt-mark hold apache2
+## Allow media and emby to interact
+sudo adduser  media emby
+sudo adduser emby media
+## Make python3 and pip3 defaults
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+cat <<EOF >> /etc/sysctl.conf
+net.ipv4.ip_forward=1
+net.core.rmem_default = 1048576
+net.core.rmem_max = 16777216
+net.core.wmem_default = 1048576
+net.core.wmem_max = 16777216
+net.core.optmem_max = 65536
+net.ipv4.tcp_rmem = 4096 1048576 2097152
+net.ipv4.tcp_wmem = 4096 65536 16777216
+EOF
+cat <<EOF >> /etc/php/8.2/cli/php.ini
+zend_extension=opcache
+opcache.enable=1
+opcache.interned_strings_buffer=8
+opcache.max_accelerated_files=10000
+opcache.memory_consumption=128
+opcache.save_comments=1
+opcache.revalidate_freq=1
+apc.enable_cli=1
+EOF
+### mods for VPN tunneling NOTE: move to namespace-openvpn
+chmod -R o-rwx /home
+mkdir -p /home/vpn
+chgrp -R vpn /home/vpn
+mount -t auto /media/cdrom
+chmod a+r /etc/apt/sources.list
+sudo chown -R media:media /opt/Prowlarr
+sudo chown -R media:media /opt/Lidarr
+sudo chown -R media:media /opt/Readarr
+sudo chown -R media:media /opt/Radarr
+sudo chown -R media:media /home/media
+sudo chown -R media:media /opt/mp4auto
+sudo chown -R emby:emby /opt/emby-server
+sudo chown -R emby:emby /var/lib/emby -Rv
+sudo chown -R vpn:vpn /home/vpn/
+sudo chmod -R 777 /home/media/incomplete
+sudo chmod -R 777 /home/media/downloads
+sudo chmod -R 777 /opt/bt_scripts/*.sh
+sudo chmod -R 755 /var/www/html/
+sudo chown -R www-data:www-data /var/www/html
+sudo sed -i '/GRUB_TIMEOUT=5/c GRUB_TIMEOUT=2' /etc/default/grub
+sudo sed -i '/GRUB_CMDLINE_LINUX_DEFAULT="quiet"/c GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200"' /etc/default/grub
+sudo sed -i  '18i GRUB_BACKGROUND="/etc/grub.d/emerald.png"' /etc/default/grub
+sudo update-grub
+apt-key update
+systemctl enable ssh
+systemctl enable navpn
+systemctl enable socat-tcp8080
+systemctl enable qbittorrent-nox
+systemctl enable systemup
+systemctl enable systemdown
+sudo update-ca-certificates -f
+## bookworm long boot times needs fixed but disabled for now
+systemctl disable systemd-networkd-wait-online.service
+rm /usr/lib/systemd/system/systemd-networkd-wait-online.service
+rm /etc/resolv.conf
+cat >"/etc/resolv.conf" <<RES
+## use google instead of local or router ip
+##
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+RES
+msg y

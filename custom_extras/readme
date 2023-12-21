@@ -1,0 +1,7 @@
+Files are created after intial install.
+
+Allows the overwrite of configs such as nginx defaut
+
+and transmission-daemon etc.
+
+Not really used anymore built into package templates postinst files 

@@ -1,0 +1,14 @@
+[Unit]
+Description=Lidarr Daemon
+After=syslog.target network.target transmission-daemon.service prowlarr.service
+[Service]
+User=media
+Group=media
+Type=simple
+
+ExecStart=/opt/Lidarr/Lidarr -nobrowser -data=/home/media/.config/Lidarr/
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

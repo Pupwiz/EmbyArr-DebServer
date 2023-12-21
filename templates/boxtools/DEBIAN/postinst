@@ -1,0 +1,48 @@
+#!/bin/sh
+set -e
+UPDATER=apt
+#!/bin/sh
+
+set -e
+
+test $DEBIAN_SCRIPT_DEBUG && set -v -x
+
+chperms() {
+        # chperms <user> <group> <perms> <file>
+        if ! OVERRIDE=`dpkg-statoverride --list $4 2>&1`; then
+                if [ -e $4 ]; then
+                        chown $1:$2 $4
+                        chmod $3 $4
+                fi
+        fi
+}
+
+case "$1" in
+  configure)
+    if ! getent passwd media > /dev/null; then
+        adduser --quiet \
+                --system \
+                --group \
+                --no-create-home \
+                media
+    fi
+
+    chperms media media  4777 /opt/mp4auto
+    chperms media media  4777 /opt/ipwatch/ipwatch.py
+    chperms media media  4776 /opt/blocklists/update.py
+
+   # Set permissions on data directory (always do this instead only on creation in case user was changed via dpkg-reconfigure)
+chown -R media:media /opt/mp4auto
+
+mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
+mv /etc/nginx/sites-available/default.ins /etc/nginx/sites-available/default
+mv /etc/issue /etc/issue.bak
+mv /etc/issue.ins /etc/issue
+
+  ;;
+esac
+
+# End automatically added section
+
+
+exit 0

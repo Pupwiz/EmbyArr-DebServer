@@ -1,0 +1,1230 @@
+2023-11-21 14:19:21.599 Info Main: Application path: /opt/emby-server/system/EmbyServer.dll
+2023-11-21 14:19:24.080 Info Main: Emby
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+2023-11-21 14:19:24.081 Info Main: Logs path: /var/lib/emby/logs
+2023-11-21 14:19:24.081 Info Main: Cache path: /var/lib/emby/cache
+2023-11-21 14:19:24.082 Info Main: Internal metadata path: /var/lib/emby/metadata
+2023-11-21 14:19:24.083 Info Main: Transcoding temporary files path: /var/lib/emby/transcoding-temp
+2023-11-21 14:19:24.322 Info App: Application version: 4.7.14.0
+2023-11-21 14:19:24.354 Info App: Loading assemblies
+2023-11-21 14:19:24.657 Info App: File /var/lib/emby/plugins/Fanart.dll has version 1.0.15.0
+2023-11-21 14:19:24.686 Info App: File /opt/emby-server/system/plugins/Fanart.dll has version 1.0.13.0
+2023-11-21 14:19:24.687 Info App: File /var/lib/emby/plugins/AudioDb.dll has version 1.0.18.0
+2023-11-21 14:19:24.758 Info App: File /opt/emby-server/system/plugins/AudioDb.dll has version 1.0.16.0
+2023-11-21 14:19:24.759 Info App: File /var/lib/emby/plugins/OMDb.dll has version 1.0.20.0
+2023-11-21 14:19:24.797 Info App: File /opt/emby-server/system/plugins/OMDb.dll has version 1.0.18.0
+2023-11-21 14:19:24.832 Info App: File /var/lib/emby/plugins/Emby.Dlna.dll has version 1.2.7.0
+2023-11-21 14:19:24.832 Info App: File /opt/emby-server/system/plugins/Emby.Dlna.dll has version 1.0.91.0
+2023-11-21 14:19:24.933 Info App: File /var/lib/emby/plugins/Emby.Webhooks.dll has version 1.0.25.0
+2023-11-21 14:19:24.968 Info App: File /opt/emby-server/system/plugins/Emby.Webhooks.dll has version 1.0.25.0
+2023-11-21 14:19:24.968 Info App: File /var/lib/emby/plugins/Emby.PortMapper.dll has version 1.2.1.0
+2023-11-21 14:19:24.976 Info App: File /opt/emby-server/system/plugins/Emby.PortMapper.dll has version 1.1.8.0
+2023-11-21 14:19:25.022 Info App: File /var/lib/emby/plugins/Emby.M3UTuner.dll has version 1.0.13.0
+2023-11-21 14:19:25.022 Info App: File /opt/emby-server/system/plugins/Emby.M3UTuner.dll has version 1.0.13.0
+2023-11-21 14:19:25.049 Info App: File /var/lib/emby/plugins/Tvdb.dll has version 1.4.1.0
+2023-11-21 14:19:25.054 Info App: File /opt/emby-server/system/plugins/Tvdb.dll has version 1.3.3.0
+2023-11-21 14:19:25.121 Info App: File /var/lib/emby/plugins/DvdMounter.dll has version 1.0.0.0
+2023-11-21 14:19:25.121 Info App: File /opt/emby-server/system/plugins/DvdMounter.dll has version 1.0.0.0
+2023-11-21 14:19:25.233 Info App: File /var/lib/emby/plugins/BlurayMounter.dll has version 1.0.0.0
+2023-11-21 14:19:25.233 Info App: File /opt/emby-server/system/plugins/BlurayMounter.dll has version 1.0.0.0
+2023-11-21 14:19:25.256 Info App: File /var/lib/emby/plugins/StudioImages.dll has version 1.0.3.0
+2023-11-21 14:19:25.256 Info App: File /opt/emby-server/system/plugins/StudioImages.dll has version 1.0.3.0
+2023-11-21 14:19:25.256 Info App: File /var/lib/emby/plugins/NfoMetadata.dll has version 1.0.78.0
+2023-11-21 14:19:25.257 Info App: File /opt/emby-server/system/plugins/NfoMetadata.dll has version 1.0.70.0
+2023-11-21 14:19:25.258 Info App: File /var/lib/emby/plugins/OpenSubtitles.dll has version 1.0.34.0
+2023-11-21 14:19:25.259 Info App: File /opt/emby-server/system/plugins/OpenSubtitles.dll has version 1.0.31.0
+2023-11-21 14:19:25.346 Info App: File /var/lib/emby/plugins/EmbyGuideData.dll has version 1.0.12.0
+2023-11-21 14:19:25.369 Info App: File /opt/emby-server/system/plugins/EmbyGuideData.dll has version 1.0.10.0
+2023-11-21 14:19:25.449 Info App: File /var/lib/emby/plugins/Emby.XmlTV.dll has version 1.1.4.0
+2023-11-21 14:19:25.454 Info App: File /opt/emby-server/system/plugins/Emby.XmlTV.dll has version 1.0.9.0
+2023-11-21 14:19:25.536 Info App: File /var/lib/emby/plugins/MusicBrainz.dll has version 1.0.22.0
+2023-11-21 14:19:25.537 Info App: File /opt/emby-server/system/plugins/MusicBrainz.dll has version 1.0.22.0
+2023-11-21 14:19:25.564 Info App: File /var/lib/emby/plugins/MovieDb.dll has version 1.7.3.0
+2023-11-21 14:19:25.564 Info App: File /opt/emby-server/system/plugins/MovieDb.dll has version 1.6.2.0
+2023-11-21 14:19:25.613 Info App: File /var/lib/emby/plugins/Emby.Server.CinemaMode.dll has version 1.0.40.0
+2023-11-21 14:19:25.614 Info App: File /opt/emby-server/system/plugins/Emby.Server.CinemaMode.dll has version 1.0.40.0
+2023-11-21 14:19:25.789 Info App: Loading Fanart, Version=1.0.15.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Fanart.dll
+2023-11-21 14:19:25.789 Info App: Loading playback_reporting, Version=2.0.1.1, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/playback_reporting.dll
+2023-11-21 14:19:25.789 Info App: Loading AudioDb, Version=1.0.18.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/AudioDb.dll
+2023-11-21 14:19:25.789 Info App: Loading OMDb, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/OMDb.dll
+2023-11-21 14:19:25.789 Info App: Loading Emby.Dlna, Version=1.2.7.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Dlna.dll
+2023-11-21 14:19:25.789 Info App: Loading Emby.Webhooks, Version=1.0.25.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Webhooks.dll
+2023-11-21 14:19:25.789 Info App: Loading Emby.PortMapper, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.PortMapper.dll
+2023-11-21 14:19:25.789 Info App: Loading Emby.M3UTuner, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.M3UTuner.dll
+2023-11-21 14:19:25.789 Info App: Loading Tvdb, Version=1.4.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Tvdb.dll
+2023-11-21 14:19:25.789 Info App: Loading DiskSpace, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/DiskSpace.dll
+2023-11-21 14:19:25.789 Info App: Loading DvdMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/DvdMounter.dll
+2023-11-21 14:19:25.790 Info App: Loading BlurayMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/BlurayMounter.dll
+2023-11-21 14:19:25.790 Info App: Loading StudioImages, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/StudioImages.dll
+2023-11-21 14:19:25.790 Info App: Loading NfoMetadata, Version=1.0.78.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/NfoMetadata.dll
+2023-11-21 14:19:25.790 Info App: Loading Emby.Notifications.Discord, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Notifications.Discord.dll
+2023-11-21 14:19:25.790 Info App: Loading OpenSubtitles, Version=1.0.34.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/OpenSubtitles.dll
+2023-11-21 14:19:25.790 Info App: Loading EmbyGuideData, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/EmbyGuideData.dll
+2023-11-21 14:19:25.790 Info App: Loading Emby.XmlTV, Version=1.1.4.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.XmlTV.dll
+2023-11-21 14:19:25.790 Info App: Loading MusicBrainz, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/MusicBrainz.dll
+2023-11-21 14:19:25.790 Info App: Loading MovieDb, Version=1.7.3.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/MovieDb.dll
+2023-11-21 14:19:25.790 Info App: Loading Emby.Server.CinemaMode, Version=1.0.40.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Server.CinemaMode.dll
+2023-11-21 14:19:25.790 Info App: Loading Emby.Api, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.Web, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading MediaBrowser.Model, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading MediaBrowser.Common, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading MediaBrowser.Controller, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.Providers, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.Photos, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.Server.Implementations, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.LiveTV, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.ActivityLog, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.Server.MediaEncoding, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.790 Info App: Loading Emby.LocalMetadata, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading Emby.Notifications, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading Emby.Codecs.Dxva, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading Emby.Codecs, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading Emby.Server.Connect, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading Emby.Server.Sync, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:25.791 Info App: Loading EmbyServer, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-11-21 14:19:26.857 Info SqliteUserRepository: Sqlite version: 3.39.2
+2023-11-21 14:19:26.870 Info SqliteUserRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-10.3.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_GEOPOLY,ENABLE_MATH_FUNCTIONS,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SCHEMA_RETRY=25,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=250000,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,OMIT_LOOKASIDE,SECURE_DELETE,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+2023-11-21 14:19:26.870 Info SqliteUserRepository: Opening sqlite connection to /var/lib/emby/data/users.db
+2023-11-21 14:19:26.981 Info SqliteUserRepository: Default journal_mode for /var/lib/emby/data/users.db is wal
+2023-11-21 14:19:27.541 Info ActivityRepository: Opening sqlite connection to /var/lib/emby/data/activitylog.db
+2023-11-21 14:19:27.546 Info ActivityRepository: Default journal_mode for /var/lib/emby/data/activitylog.db is wal
+2023-11-21 14:19:27.581 Info SqliteDisplayPreferencesRepository: Opening sqlite connection to /var/lib/emby/data/displaypreferences.db
+2023-11-21 14:19:27.585 Info SqliteDisplayPreferencesRepository: Default journal_mode for /var/lib/emby/data/displaypreferences.db is wal
+2023-11-21 14:19:27.665 Info App: Adding HttpListener prefix http://+:8096/
+2023-11-21 14:19:27.824 Info NetworkManager: Detecting local network addresses
+2023-11-21 14:19:27.824 Info NetworkManager: networkInterface: Ethernet ens18, Speed: 4294967295000000, Description: ens18
+2023-11-21 14:19:27.825 Info NetworkManager: GatewayAddresses: 192.168.1.1
+2023-11-21 14:19:27.826 Info NetworkManager: UnicastAddresses: 192.168.1.107,fe80::30e6:32ff:fe4b:fbfb%2
+2023-11-21 14:19:27.826 Info NetworkManager: networkInterface: Loopback lo, Speed: -1, Description: lo
+2023-11-21 14:19:27.826 Info NetworkManager: GatewayAddresses: 
+2023-11-21 14:19:27.826 Info NetworkManager: UnicastAddresses: 127.0.0.1,::1
+2023-11-21 14:19:27.826 Info NetworkManager: networkInterface: Unknown tailscale0, Speed: -1, Description: tailscale0
+2023-11-21 14:19:27.826 Info NetworkManager: GatewayAddresses: 
+2023-11-21 14:19:27.826 Info NetworkManager: UnicastAddresses: fe80::b929:9175:8590:b7a0%4
+2023-11-21 14:19:27.849 Info NetworkManager: Detected local ip addresses: 192.168.1.107, fe80::30e6:32ff:fe4b:fbfb%2, 127.0.0.1, ::1, fe80::b929:9175:8590:b7a0%4
+2023-11-21 14:19:29.176 Info AuthenticationRepository: Opening sqlite connection to /var/lib/emby/data/authentication.db
+2023-11-21 14:19:29.232 Info AuthenticationRepository: Default journal_mode for /var/lib/emby/data/authentication.db is wal
+2023-11-21 14:19:29.237 Info SqliteItemRepository: Opening sqlite connection to /var/lib/emby/data/library.db
+2023-11-21 14:19:29.250 Info SqliteItemRepository: Default journal_mode for /var/lib/emby/data/library.db is wal
+2023-11-21 14:19:29.250 Info SqliteItemRepository: cache_size is -98304
+2023-11-21 14:19:29.250 Info SqliteItemRepository: page_size is 4096
+2023-11-21 14:19:31.825 Info FfmpegManager: FFMpeg: /opt/emby-server/bin/ffmpeg
+2023-11-21 14:19:31.825 Info FfmpegManager: FFProbe: /opt/emby-server/bin/ffprobe
+2023-11-21 14:19:31.825 Info FfmpegManager: FFDetect: /opt/emby-server/bin/ffdetect
+2023-11-21 14:19:32.176 Info Skia: SkiaSharp version: 2.80.0.0
+2023-11-21 14:19:32.181 Info NewMediaReportNotification - TaskNotifictionReport: NewMediaReportNotification Loaded
+2023-11-21 14:19:32.185 Info UserActivityReportNotification - TaskNotifictionReport: UserActivityReportNotification Loaded
+2023-11-21 14:19:32.187 Info PlaybackReporting - TaskRunBackup: TaskCleanDb Loaded
+2023-11-21 14:19:32.290 Info TaskManager: Daily trigger for Trim Db set to fire at 11/22/2023 00:05:00, which is 585.4619500516667 minutes from now.
+2023-11-21 14:19:32.297 Info TaskManager: Daily trigger for Create Playlists set to fire at 11/22/2023 03:00:00, which is 760.46171801 minutes from now.
+2023-11-21 14:19:32.297 Info TaskManager: Daily trigger for New Media Notification set to fire at 11/22/2023 06:00:00, which is 940.4617118183334 minutes from now.
+2023-11-21 14:19:32.300 Info TaskManager: Daily trigger for User Activity Notification set to fire at 11/22/2023 00:20:00, which is 600.4617054983333 minutes from now.
+2023-11-21 14:19:32.329 Info TaskManager: Daily trigger for Thumbnail image extraction set to fire at 11/22/2023 02:00:00, which is 700.4613366233333 minutes from now.
+2023-11-21 14:19:33.063 Info TaskManager: Daily trigger for Rotate log file set to fire at 11/22/2023 00:00:00, which is 580.4489543516667 minutes from now.
+2023-11-21 14:19:33.114 Info App: ServerId: d86788585de24deea0ca865d0d872d17
+2023-11-21 14:19:33.182 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2023-11-21 14:19:33.221 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.0343667 seconds
+2023-11-21 14:19:33.221 Info App: Starting entry point Emby.Server.Implementations.Networking.RemoteAddressEntryPoint
+2023-11-21 14:19:33.222 Info App: Loading data from /var/lib/emby/data/wan.dat
+2023-11-21 14:19:33.225 Info App: Entry point completed: Emby.Server.Implementations.Networking.RemoteAddressEntryPoint. Duration: 0.0039572 seconds
+2023-11-21 14:19:33.225 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2023-11-21 14:19:33.226 Info App: Loading data from /var/lib/emby/data/connect.txt
+2023-11-21 14:19:33.226 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0012059 seconds
+2023-11-21 14:19:33.226 Info App: Core startup complete
+2023-11-21 14:19:33.227 Info App: Post-init migrations complete
+2023-11-21 14:19:33.227 Info App: Starting entry point playback_reporting.EventMonitorEntryPoint
+2023-11-21 14:19:33.227 Info PlaybackReporting - EventMonitorEntryPoint: EventMonitorEntryPoint Running
+2023-11-21 14:19:33.227 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : Creating
+2023-11-21 14:19:33.228 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : CreateConnection : /var/lib/emby/data/playback_reporting.db
+2023-11-21 14:19:33.236 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : ConnectionCreated : 59482492
+2023-11-21 14:19:33.236 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : New Instance Created : 65580385
+2023-11-21 14:19:33.244 Info PlaybackReporting - EventMonitorEntryPoint: Table Actual Cols : DateCreated DATETIME, UserId TEXT, ItemId TEXT, ItemType TEXT, ItemName TEXT, PlaybackMethod TEXT, ClientName TEXT, DeviceName TEXT, PlayDuration INT, PauseDuration INT
+2023-11-21 14:19:33.244 Info PlaybackReporting - EventMonitorEntryPoint: Table Alter SQL : ALTER TABLE PlaybackActivity ADD RemoteAddress TEXT;ALTER TABLE PlaybackActivity ADD TranscodeReasons TEXT;
+2023-11-21 14:19:34.085 Info App: Entry point completed: playback_reporting.EventMonitorEntryPoint. Duration: 0.8581046 seconds
+2023-11-21 14:19:34.085 Info App: Starting entry point Emby.Notifications.NotificationManager
+2023-11-21 14:19:34.088 Info NotificationManager: Registering event nofitier Webhooks
+2023-11-21 14:19:34.090 Info PlaybackReporting - EventMonitorEntryPoint: PlaybackMonitoringTask : Started
+2023-11-21 14:19:34.097 Info App: Entry point completed: Emby.Notifications.NotificationManager. Duration: 0.0117636 seconds
+2023-11-21 14:19:34.097 Info App: Starting entry point Emby.Webhooks.ConfigurationUpgradeEntryPoint
+2023-11-21 14:19:34.106 Info App: Entry point completed: Emby.Webhooks.ConfigurationUpgradeEntryPoint. Duration: 0.0095705 seconds
+2023-11-21 14:19:34.107 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2023-11-21 14:19:34.189 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.082715 seconds
+2023-11-21 14:19:34.189 Info App: Starting entry point Tvdb.EntryPoint
+2023-11-21 14:19:34.190 Info App: Entry point completed: Tvdb.EntryPoint. Duration: 2.87E-05 seconds
+2023-11-21 14:19:34.190 Info App: Starting entry point NfoMetadata.EntryPoint
+2023-11-21 14:19:34.190 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 7.98E-05 seconds
+2023-11-21 14:19:34.190 Info App: Starting entry point MovieDb.Security.PluginStartup
+2023-11-21 14:19:34.217 Info App: Entry point completed: MovieDb.Security.PluginStartup. Duration: 0.0271724 seconds
+2023-11-21 14:19:34.217 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2023-11-21 14:19:34.217 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 6.86E-05 seconds
+2023-11-21 14:19:34.217 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2023-11-21 14:19:34.217 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 9.96E-05 seconds
+2023-11-21 14:19:34.217 Info App: Starting entry point Emby.Api.ApiEntryPoint
+2023-11-21 14:19:34.217 Info App: Entry point completed: Emby.Api.ApiEntryPoint. Duration: 2.42E-05 seconds
+2023-11-21 14:19:34.217 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2023-11-21 14:19:34.220 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0029953 seconds
+2023-11-21 14:19:34.220 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2023-11-21 14:19:34.221 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0002707 seconds
+2023-11-21 14:19:34.221 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2023-11-21 14:19:34.255 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.0342723 seconds
+2023-11-21 14:19:34.255 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2023-11-21 14:19:34.255 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0001325 seconds
+2023-11-21 14:19:34.255 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2023-11-21 14:19:34.255 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 8.23E-05 seconds
+2023-11-21 14:19:34.256 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2023-11-21 14:19:34.257 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0009448 seconds
+2023-11-21 14:19:34.257 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2023-11-21 14:19:34.261 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0012646 seconds
+2023-11-21 14:19:34.261 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2023-11-21 14:19:34.261 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0001613 seconds
+2023-11-21 14:19:34.261 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2023-11-21 14:19:34.261 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0002687 seconds
+2023-11-21 14:19:34.261 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2023-11-21 14:19:34.261 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 6.71E-05 seconds
+2023-11-21 14:19:34.261 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2023-11-21 14:19:34.275 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0012561 seconds
+2023-11-21 14:19:34.275 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2023-11-21 14:19:34.279 Info LiveTV: Loading live tv data from /var/lib/emby/data/livetv/timers
+2023-11-21 14:19:34.281 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0050242 seconds
+2023-11-21 14:19:34.281 Info App: Starting entry point Emby.LiveTV.UpgradeChannelOptionsEntryPoint
+2023-11-21 14:19:34.282 Info App: Entry point completed: Emby.LiveTV.UpgradeChannelOptionsEntryPoint. Duration: 0.0006787 seconds
+2023-11-21 14:19:34.282 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2023-11-21 14:19:34.282 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0003104 seconds
+2023-11-21 14:19:34.282 Info App: Starting entry point Emby.ActivityLog.ActivityLogEntryPoint
+2023-11-21 14:19:34.284 Info App: Entry point completed: Emby.ActivityLog.ActivityLogEntryPoint. Duration: 0.0007339 seconds
+2023-11-21 14:19:34.284 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2023-11-21 14:19:34.285 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0005518 seconds
+2023-11-21 14:19:34.285 Info App: Starting entry point Emby.Notifications.Notifications
+2023-11-21 14:19:34.285 Info App: Entry point completed: Emby.Notifications.Notifications. Duration: 0.0001687 seconds
+2023-11-21 14:19:34.285 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
+2023-11-21 14:19:34.287 Info App: SyncRepository Initialize taking write lock
+2023-11-21 14:19:34.288 Info App: SyncRepository Initialize write lock taken
+2023-11-21 14:19:34.288 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0025888 seconds
+2023-11-21 14:19:34.288 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2023-11-21 14:19:34.289 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0013166 seconds
+2023-11-21 14:19:34.289 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2023-11-21 14:19:34.289 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 5.62E-05 seconds
+2023-11-21 14:19:34.289 Info App: All entry points have started
+2023-11-21 14:19:34.298 Info LibraryMonitor: Watching directory /home/media/movie
+2023-11-21 14:19:34.300 Info LibraryMonitor: Watching directory /home/media/tv
+2023-11-21 14:19:34.728 Info App: Init BeginReceive on 0.0.0.0
+2023-11-21 14:19:34.728 Info App: Init BeginReceive on 0.0.0.0
+2023-11-21 14:19:34.728 Info App: Init BeginReceive on 192.168.1.107
+2023-11-21 14:19:34.728 Info App: Init BeginReceive on 127.0.0.1
+2023-11-21 14:19:36.073 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2023-11-21 14:19:36.118 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Execute: /opt/emby-server/bin/ffmpeg -hide_banner -version
+2023-11-21 14:19:37.238 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0 - Succeeded
+2023-11-21 14:19:37.366 Info SoftwareCodecProvider: h264, libx264, x264 Software Encoder, V-E-libx264
+2023-11-21 14:19:37.366 Info SoftwareCodecProvider: hevc, libx265, x265 Software Encoder, V-E-libx265
+2023-11-21 14:19:37.366 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2023-11-21 14:19:37.366 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2023-11-21 14:19:37.366 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2023-11-21 14:19:37.368 Info SoftwareCodecProvider: h264, libx264, x264 Software Encoder, V-E-libx264
+2023-11-21 14:19:37.368 Info SoftwareCodecProvider: hevc, libx265, x265 Software Encoder, V-E-libx265
+2023-11-21 14:19:37.368 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2023-11-21 14:19:37.368 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2023-11-21 14:19:37.368 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2023-11-21 14:19:37.379 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2023-11-21 14:19:37.474 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0 - Succeeded
+2023-11-21 14:19:37.552 Info VaapiCodecProvider: Adapter #0: 'Device 4660:4369' Id:4369 (Driver: , Vendor: 4660)
+2023-11-21 14:19:37.554 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2023-11-21 14:19:37.581 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0 - Succeeded
+2023-11-21 14:19:37.637 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2023-11-21 14:19:37.644 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed
+2023-11-21 14:19:37.930 Info CodecManager: CodecList:
+2023-11-21 14:19:39.262 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:19:39.278 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:19:39.281 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:19:39.294 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:19:39.295 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:19:39.297 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:29:39.962 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:29:39.964 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:29:39.966 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:29:39.969 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:29:39.970 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:29:39.971 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:40:32.341 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:40:32.344 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:40:32.345 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:40:32.349 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:40:32.350 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:40:32.351 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:50:32.365 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:50:32.368 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:50:32.369 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:50:32.372 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 14:50:32.372 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 14:50:32.374 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:00:32.395 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:00:32.397 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:00:32.397 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:00:32.402 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:00:32.403 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:00:32.405 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:10:32.425 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:10:32.428 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:10:32.429 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:10:32.434 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:10:32.434 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:10:32.436 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:19:33.148 Info LiveTvManager: Emby Live TV and DVR requires an active Emby Premiere subscription.
+2023-11-21 15:19:33.173 Info LiveTV: Loading live tv data from /var/lib/emby/data/livetv/seriestimers
+2023-11-21 15:20:32.629 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:20:32.630 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:20:32.631 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:20:32.639 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:20:32.640 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:20:32.647 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:30:39.160 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:30:39.163 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:30:39.163 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:30:39.170 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:30:39.170 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:30:39.173 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:40:39.159 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:40:39.161 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:40:39.162 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:40:39.165 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:40:39.166 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:40:39.167 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:50:39.959 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:50:39.962 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:50:39.963 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:50:39.967 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 15:50:39.968 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 15:50:39.969 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:00:39.961 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:00:39.964 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:00:39.964 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:00:39.969 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:00:39.969 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:00:39.971 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:11:32.435 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:11:32.437 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:11:32.437 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:11:32.440 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:11:32.441 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:11:32.442 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:21:32.457 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:21:32.459 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:21:32.459 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:21:32.462 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:21:32.462 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:21:32.463 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:31:32.484 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:31:32.487 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:31:32.487 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:31:32.492 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:31:32.492 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:31:32.494 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:41:32.499 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:41:32.500 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:41:32.501 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:41:32.504 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:41:32.504 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:41:32.505 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:51:32.532 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:51:32.534 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:51:32.534 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:51:32.537 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 16:51:32.537 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 16:51:32.538 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:01:32.560 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:01:32.562 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:01:32.562 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:01:32.567 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:01:32.567 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:01:32.569 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:11:32.582 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:11:32.584 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:11:32.584 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:11:32.587 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:11:32.588 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:11:32.589 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:21:32.583 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:21:32.585 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:21:32.585 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:21:32.589 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:21:32.589 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:21:32.591 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:31:32.630 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:31:32.633 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:31:32.633 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:31:32.637 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:31:32.638 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:31:32.640 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:41:32.657 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:41:32.659 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:41:32.659 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:41:32.663 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:41:32.663 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-13-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 1
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-11-21 17:41:32.664 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-11-21 17:45:05.920 Info Server: Stopping HttpListener...
+2023-11-21 17:45:05.984 Info Server: HttpListener stopped
+2023-11-21 17:45:05.984 Info App: Disposing CoreAppHost
+2023-11-21 17:45:05.985 Info App: Disposing LoopUtilEntryPoint
+2023-11-21 17:45:05.985 Info App: Disposing SyncNotificationEntryPoint
+2023-11-21 17:45:06.010 Info App: Disposing SyncManagerEntryPoint
+2023-11-21 17:45:06.010 Info App: DisposeConnection
+2023-11-21 17:45:06.010 Info App: Disposing ConnectEntryPoint
+2023-11-21 17:45:06.010 Info App: Disposing Notifications
+2023-11-21 17:45:06.011 Info App: Disposing EncodingManagerEntryPoint
+2023-11-21 17:45:06.011 Info App: Disposing ActivityLogEntryPoint
+2023-11-21 17:45:06.069 Info App: Disposing RecordingNotifier
+2023-11-21 17:45:06.074 Info App: Disposing UpgradeChannelOptionsEntryPoint
+2023-11-21 17:45:06.076 Info App: Disposing EntryPoint
+2023-11-21 17:45:06.076 Info App: Disposing ChannelsEntryPoint
+2023-11-21 17:45:06.077 Info App: Disposing UserDataChangeNotifier
+2023-11-21 17:45:06.078 Info App: Disposing SystemEvents
+2023-11-21 17:45:06.079 Info App: Disposing StartupWizard
+2023-11-21 17:45:06.079 Info App: Disposing ServerEventNotifier
+2023-11-21 17:45:06.089 Info App: Disposing LibraryChangedNotifier
+2023-11-21 17:45:06.093 Info App: Disposing KeepServerAwake
+2023-11-21 17:45:06.093 Info App: Disposing AutomaticRestartEntryPoint
+2023-11-21 17:45:06.096 Info App: Disposing LibraryMonitorStartup
+2023-11-21 17:45:06.096 Info App: Disposing DeviceAccessEntryPoint
+2023-11-21 17:45:06.096 Info App: Disposing RemoteAddressEntryPoint
+2023-11-21 17:45:06.096 Info App: Disposing UdpServerEntryPoint
+2023-11-21 17:45:06.097 Info App: Disposing ApiEntryPoint
+2023-11-21 17:45:06.097 Info App: Disposing IntrosEntryPoint
+2023-11-21 17:45:06.097 Info App: Disposing PluginSecurityManager
+2023-11-21 17:45:06.097 Info App: Disposing PluginStartup
+2023-11-21 17:45:06.098 Info App: Disposing EntryPoint
+2023-11-21 17:45:06.098 Info App: Disposing EntryPoint
+2023-11-21 17:45:06.098 Info App: Disposing ExternalPortForwarding
+2023-11-21 17:45:06.102 Info App: Disposing ConfigurationUpgradeEntryPoint
+2023-11-21 17:45:06.102 Info App: Disposing NotificationManager
+2023-11-21 17:45:06.105 Info App: Disposing DlnaEntryPoint
+2023-11-21 17:45:06.105 Info App: Disposing EventMonitorEntryPoint
+2023-11-21 17:45:06.105 Info App: Disposing StrmMounter
+2023-11-21 17:45:06.105 Info App: Disposing BlurayMounter
+2023-11-21 17:45:06.105 Info App: Disposing DvdMounter
+2023-11-21 17:45:06.105 Info App: Disposing OpenSubtitleDownloader
+2023-11-21 17:45:06.109 Info App: Disposing HauppaugeTunerWindows
+2023-11-21 17:45:06.109 Info App: Disposing ActivityLogWebSocketListener
+2023-11-21 17:45:06.114 Info App: Disposing SessionWebSocketListener
+2023-11-21 17:45:06.114 Info App: Disposing ScheduledTasksWebSocketListener
+2023-11-21 17:45:06.115 Info App: Disposing SessionInfoWebSocketListener
+2023-11-21 17:45:06.116 Info App: Disposing SessionInfosWebSocketListener
+2023-11-21 17:45:06.116 Info App: Disposing SessionEventsWebSocketListener
+2023-11-21 17:45:06.116 Info App: Disposing EncodingManager
+2023-11-21 17:45:06.117 Info App: Disposing ActivityRepository
+2023-11-21 17:45:06.117 Info ActivityRepository: DisposeConnection
+2023-11-21 17:45:06.117 Info ActivityRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-11-21 17:45:06.119 Info ActivityRepository: Closing sqlite connection
+2023-11-21 17:45:06.122 Info App: Disposing MediaEncoder
+2023-11-21 17:45:06.122 Info App: Disposing SsdpDevicePublisher
+2023-11-21 17:45:06.127 Info App: Disposing SsdpCommunicationsServer
+2023-11-21 17:45:06.128 Info App: SsdpCommunicationsServer Disposing 4 sendSockets
+2023-11-21 17:45:06.128 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:1900
+2023-11-21 17:45:06.129 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:52148
+2023-11-21 17:45:06.129 Info App: SsdpCommunicationsServer disposing sendSocket from 192.168.1.107:42664
+2023-11-21 17:45:06.129 Info App: SsdpCommunicationsServer disposing sendSocket from 127.0.0.1:51730
+2023-11-21 17:45:06.129 Info App: Disposing LiveTvManager
+2023-11-21 17:45:06.130 Info App: Disposing SessionManager
+2023-11-21 17:45:06.130 Info App: Disposing ProviderManager
+2023-11-21 17:45:06.131 Info App: Disposing MediaSourceManager
+2023-11-21 17:45:06.132 Info App: Disposing ImageProcessor
+2023-11-21 17:45:06.132 Info App: Disposing ProcessManager
+2023-11-21 17:45:06.133 Info App: Disposing HttpListenerHost
+2023-11-21 17:45:06.133 Info Server: Stopping HttpListener...
+2023-11-21 17:45:06.133 Info Server: HttpListener stopped
+2023-11-21 17:45:06.134 Info App: Disposing LibraryMonitor
+2023-11-21 17:45:06.135 Info LibraryMonitor: Stopping directory watching for path /home/media/tv
+2023-11-21 17:45:06.136 Info LibraryMonitor: Stopping directory watching for path /home/media/movie
+2023-11-21 17:45:06.137 Info App: Disposing AuthenticationRepository
+2023-11-21 17:45:06.137 Info AuthenticationRepository: DisposeConnection
+2023-11-21 17:45:06.137 Info AuthenticationRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-11-21 17:45:06.137 Info AuthenticationRepository: Closing sqlite connection
+2023-11-21 17:45:06.137 Info App: Disposing SqliteUserDataRepository
+2023-11-21 17:45:06.137 Info SqliteUserDataRepository: DisposeConnection
+2023-11-21 17:45:06.137 Info App: Disposing SqliteItemRepository
+2023-11-21 17:45:06.137 Info SqliteItemRepository: DisposeConnection
+2023-11-21 17:45:06.137 Info SqliteItemRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-11-21 17:45:06.440 Info SqliteItemRepository: Closing sqlite connection
+2023-11-21 17:45:06.753 Info App: Disposing SqliteDisplayPreferencesRepository

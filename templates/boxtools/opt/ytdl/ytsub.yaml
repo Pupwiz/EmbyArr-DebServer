@@ -1,0 +1,81 @@
+drewbuildsstuff:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UC073quTeFarhKNe8ZuC6Qig"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Drew Builds Stuff"
+
+extrathrottlehouse:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UCfzWwxboCLyLw7KVfQj84eA"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Extra Throttle House"
+
+ambittionstrikes:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UC5OdB-sGz9atv-tJINwWOTg"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Ambition Stikes"
+
+lifeuncontained:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UC-l69It3hxAY3tkBH_utLNQ"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Life Uncontained"
+
+
+goonzquad:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UCwO_xoYm2vjhu4kZSxFO5mA"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Goonzquad"
+
+larsonfarms:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UCfJN6KQJRloVhV38tnxpOBA"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Larson Farms"
+
+throttlehouse:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UCyXiDU5qjfOPxgOPeFWGwKw"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "Throttle House"
+
+thefarm:
+  preset:
+    - "channel"
+    - "recent_videos"
+  download:
+    url: "https://www.youtube.com/channel/UCmLaO0FYZqRnXLOyegFmIYA"
+  # added explicit tv_show_name override
+  overrides:
+    tv_show_name: "The Farm"
+    

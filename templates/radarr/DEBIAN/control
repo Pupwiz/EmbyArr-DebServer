@@ -1,0 +1,9 @@
+Package: radarr
+Priority: extra
+Section: net
+Installed-Size: 60550172
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 3.2.2.5080 
+Provides: Radarr
+Description: Radarr movie indexing downloader

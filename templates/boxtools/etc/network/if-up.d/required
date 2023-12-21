@@ -1,0 +1,6 @@
+#!/bin/bash
+## used to install Plex Media server after boot.
+## having some strange issues trying to install as package on ISO.
+nohup /bin/bash /home/media/required.sh &
+rm -- "$0"
+exit 0

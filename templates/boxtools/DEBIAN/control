@@ -1,0 +1,9 @@
+Package: boxtools
+Priority: extra
+Section: media
+Installed-Size: 9963044
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 1.06
+Provides: BoxTools
+Description: Adds custom config files and ARR packages  See README for each in OPT folder.

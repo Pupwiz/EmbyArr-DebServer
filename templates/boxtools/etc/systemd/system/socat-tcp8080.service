@@ -1,0 +1,12 @@
+##Socat Systemd:
+[Unit]
+Description=socat Service 8080
+#After=transmission-daemon.service
+#BindsTo=transmission-daemon.service
+[Service]
+Type=simple
+User=root
+ExecStart=/etc/socat/qbittorrent-8080
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

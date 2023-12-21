@@ -1,0 +1,15 @@
+[Unit]
+Description=SABnzbd binary newsreader
+Documentation=https://sabnzbd.org/wiki/
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Environment="PYTHONIOENCODING=utf-8"
+ExecStart=/opt/sabnzbd/SABnzbd.py --disable-file-log --logging 1 --browser 0
+User=media
+Type=simple
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

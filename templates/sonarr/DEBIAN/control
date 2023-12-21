@@ -1,0 +1,9 @@
+Package: sonarr
+Priority: extra
+Section: net
+Installed-Size: 9331604
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 3.2.2.5080 
+Provides: sonarr
+Description: Sonarr tv series downloader

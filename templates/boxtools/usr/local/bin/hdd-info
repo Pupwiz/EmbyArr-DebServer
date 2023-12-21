@@ -1,0 +1,23 @@
+#! /bin/bash
+
+set -v
+
+# HDD & SSD info
+
+blkid
+
+mount
+
+df -h
+
+lsblk
+
+# Backup size
+
+rsnapshot du
+
+# SWAP in use
+
+cat /proc/swaps
+
+# Script Finished

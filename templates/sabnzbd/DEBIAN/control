@@ -1,0 +1,9 @@
+Package: sabnzbd
+Priority: extra
+Section: net
+Installed-Size: 9331
+Maintainer: root@fileserver.com
+Architecture: amd64
+Version: 4.1.0 
+Provides: sabnzbd
+Description: newzreader and  nzb downloader

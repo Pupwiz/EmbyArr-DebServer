@@ -1,0 +1,21 @@
+#OpenVPN Namespaced Systemd
+#/etc/systemd/system/navpn.service
+##ExecStart=/usr/local/sbin/namespaced-openvpn --daemon --cd /etc/openvpn --config /home/vpn/.config/openvpn/client.ovpn --auth-user-pass /home/vpn/.config/openvpn/auth.txt --writepid /run/namespaced-openvpn/protected.pid --log /var/log/openvpn-protected.log
+[Unit]
+Description=Namespaced OpenVPN connection to protected
+Before=systemd-user-sessions.service
+After=network-online.target
+Wants=network-online.target
+Documentation=https://github.com/slingamn/namespaced-openvpn
+[Service]
+Type=notify
+WorkingDirectory=/etc/openvpn
+ExecStart=/usr/local/sbin/namespaced-openvpn --daemon --cd /etc/openvpn --config /home/vpn/.config/openvpn/airvpn.ovpn --writepid /run/namespaced-openvpn/protected.pid --log /var/log/openvpn-protected.log
+PIDFile=/run/namespaced-openvpn/protected.pid
+KillMode=process
+ExecReload=/bin/kill -HUP 
+RestartSec=5s
+Restart=on-failure
+RuntimeDirectory=namespaced-openvpn
+[Install]
+WantedBy=multi-user.target

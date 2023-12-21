@@ -1,0 +1,392 @@
+2023-12-12 16:11:38.951 Info Main: Application path: /opt/emby-server/system/EmbyServer.dll
+2023-12-12 16:11:46.695 Info Main: Emby
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-15-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+2023-12-12 16:11:46.695 Info Main: Logs path: /var/lib/emby/logs
+2023-12-12 16:11:46.695 Info Main: Cache path: /var/lib/emby/cache
+2023-12-12 16:11:46.695 Info Main: Internal metadata path: /var/lib/emby/metadata
+2023-12-12 16:11:46.695 Info Main: Transcoding temporary files path: /var/lib/emby/transcoding-temp
+2023-12-12 16:11:46.755 Info App: Application version: 4.7.14.0
+2023-12-12 16:11:46.757 Info App: Loading assemblies
+2023-12-12 16:11:48.408 Info App: File /var/lib/emby/plugins/AudioDb.dll has version 1.0.18.0
+2023-12-12 16:11:48.560 Info App: File /opt/emby-server/system/plugins/AudioDb.dll has version 1.0.16.0
+2023-12-12 16:11:48.644 Info App: File /var/lib/emby/plugins/MovieDb.dll has version 1.7.3.0
+2023-12-12 16:11:48.644 Info App: File /opt/emby-server/system/plugins/MovieDb.dll has version 1.6.2.0
+2023-12-12 16:11:48.654 Info App: File /var/lib/emby/plugins/StudioImages.dll has version 1.0.3.0
+2023-12-12 16:11:48.669 Info App: File /opt/emby-server/system/plugins/StudioImages.dll has version 1.0.3.0
+2023-12-12 16:11:48.760 Info App: File /var/lib/emby/plugins/OpenSubtitles.dll has version 1.0.34.0
+2023-12-12 16:11:48.895 Info App: File /opt/emby-server/system/plugins/OpenSubtitles.dll has version 1.0.31.0
+2023-12-12 16:11:49.014 Info App: File /var/lib/emby/plugins/BlurayMounter.dll has version 1.0.0.0
+2023-12-12 16:11:49.015 Info App: File /opt/emby-server/system/plugins/BlurayMounter.dll has version 1.0.0.0
+2023-12-12 16:11:49.016 Info App: File /var/lib/emby/plugins/Emby.PortMapper.dll has version 1.2.1.0
+2023-12-12 16:11:49.017 Info App: File /opt/emby-server/system/plugins/Emby.PortMapper.dll has version 1.1.8.0
+2023-12-12 16:11:49.067 Info App: File /var/lib/emby/plugins/Emby.XmlTV.dll has version 1.1.4.0
+2023-12-12 16:11:49.067 Info App: File /opt/emby-server/system/plugins/Emby.XmlTV.dll has version 1.0.9.0
+2023-12-12 16:11:49.068 Info App: File /var/lib/emby/plugins/Emby.M3UTuner.dll has version 1.0.13.0
+2023-12-12 16:11:49.073 Info App: File /opt/emby-server/system/plugins/Emby.M3UTuner.dll has version 1.0.13.0
+2023-12-12 16:11:49.195 Info App: File /var/lib/emby/plugins/EmbyGuideData.dll has version 1.0.12.0
+2023-12-12 16:11:49.277 Info App: File /opt/emby-server/system/plugins/EmbyGuideData.dll has version 1.0.10.0
+2023-12-12 16:11:49.334 Info App: File /var/lib/emby/plugins/Emby.Dlna.dll has version 1.2.7.0
+2023-12-12 16:11:49.334 Info App: File /opt/emby-server/system/plugins/Emby.Dlna.dll has version 1.0.91.0
+2023-12-12 16:11:49.335 Info App: File /var/lib/emby/plugins/DvdMounter.dll has version 1.0.0.0
+2023-12-12 16:11:49.371 Info App: File /opt/emby-server/system/plugins/DvdMounter.dll has version 1.0.0.0
+2023-12-12 16:11:49.372 Info App: File /var/lib/emby/plugins/Tvdb.dll has version 1.4.1.0
+2023-12-12 16:11:49.373 Info App: File /opt/emby-server/system/plugins/Tvdb.dll has version 1.3.3.0
+2023-12-12 16:11:49.392 Info App: File /var/lib/emby/plugins/Fanart.dll has version 1.0.15.0
+2023-12-12 16:11:49.392 Info App: File /opt/emby-server/system/plugins/Fanart.dll has version 1.0.13.0
+2023-12-12 16:11:49.393 Info App: File /var/lib/emby/plugins/Emby.Server.CinemaMode.dll has version 1.0.40.0
+2023-12-12 16:11:49.393 Info App: File /opt/emby-server/system/plugins/Emby.Server.CinemaMode.dll has version 1.0.40.0
+2023-12-12 16:11:49.393 Info App: File /var/lib/emby/plugins/OMDb.dll has version 1.0.20.0
+2023-12-12 16:11:49.554 Info App: File /opt/emby-server/system/plugins/OMDb.dll has version 1.0.18.0
+2023-12-12 16:11:49.640 Info App: File /var/lib/emby/plugins/Emby.Webhooks.dll has version 1.0.25.0
+2023-12-12 16:11:49.690 Info App: File /opt/emby-server/system/plugins/Emby.Webhooks.dll has version 1.0.25.0
+2023-12-12 16:11:49.691 Info App: File /var/lib/emby/plugins/NfoMetadata.dll has version 1.0.78.0
+2023-12-12 16:11:49.691 Info App: File /opt/emby-server/system/plugins/NfoMetadata.dll has version 1.0.70.0
+2023-12-12 16:11:49.820 Info App: File /var/lib/emby/plugins/MusicBrainz.dll has version 1.0.22.0
+2023-12-12 16:11:49.820 Info App: File /opt/emby-server/system/plugins/MusicBrainz.dll has version 1.0.22.0
+2023-12-12 16:11:50.156 Info App: Loading AudioDb, Version=1.0.18.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/AudioDb.dll
+2023-12-12 16:11:50.156 Info App: Loading MovieDb, Version=1.7.3.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/MovieDb.dll
+2023-12-12 16:11:50.156 Info App: Loading StudioImages, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/StudioImages.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.Notifications.Discord, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Notifications.Discord.dll
+2023-12-12 16:11:50.156 Info App: Loading OpenSubtitles, Version=1.0.34.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/OpenSubtitles.dll
+2023-12-12 16:11:50.156 Info App: Loading BlurayMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/BlurayMounter.dll
+2023-12-12 16:11:50.156 Info App: Loading playback_reporting, Version=2.0.1.1, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/playback_reporting.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.PortMapper, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.PortMapper.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.XmlTV, Version=1.1.4.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.XmlTV.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.M3UTuner, Version=1.0.13.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.M3UTuner.dll
+2023-12-12 16:11:50.156 Info App: Loading EmbyGuideData, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/EmbyGuideData.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.Dlna, Version=1.2.7.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Dlna.dll
+2023-12-12 16:11:50.156 Info App: Loading DvdMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/DvdMounter.dll
+2023-12-12 16:11:50.156 Info App: Loading DiskSpace, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/DiskSpace.dll
+2023-12-12 16:11:50.156 Info App: Loading EmbyReports, Version=1.0.50.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/EmbyReports.dll
+2023-12-12 16:11:50.156 Info App: Loading Tvdb, Version=1.4.1.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Tvdb.dll
+2023-12-12 16:11:50.156 Info App: Loading Fanart, Version=1.0.15.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Fanart.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.Server.CinemaMode, Version=1.0.40.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Server.CinemaMode.dll
+2023-12-12 16:11:50.156 Info App: Loading OMDb, Version=1.0.20.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/OMDb.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.Webhooks, Version=1.0.25.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/Emby.Webhooks.dll
+2023-12-12 16:11:50.156 Info App: Loading NfoMetadata, Version=1.0.78.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/NfoMetadata.dll
+2023-12-12 16:11:50.156 Info App: Loading MusicBrainz, Version=1.0.22.0, Culture=neutral, PublicKeyToken=null from /var/lib/emby/plugins/MusicBrainz.dll
+2023-12-12 16:11:50.156 Info App: Loading Emby.Api, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Web, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading MediaBrowser.Model, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading MediaBrowser.Common, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading MediaBrowser.Controller, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Providers, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Photos, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Server.Implementations, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.LiveTV, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.ActivityLog, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Server.MediaEncoding, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.LocalMetadata, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Notifications, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Codecs.Dxva, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Codecs, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Server.Connect, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.156 Info App: Loading Emby.Server.Sync, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:50.157 Info App: Loading EmbyServer, Version=4.7.14.0, Culture=neutral, PublicKeyToken=null
+2023-12-12 16:11:52.830 Info SqliteUserRepository: Sqlite version: 3.39.2
+2023-12-12 16:11:52.831 Info SqliteUserRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-10.3.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_GEOPOLY,ENABLE_MATH_FUNCTIONS,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SCHEMA_RETRY=25,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=250000,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,OMIT_LOOKASIDE,SECURE_DELETE,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+2023-12-12 16:11:52.831 Info SqliteUserRepository: Opening sqlite connection to /var/lib/emby/data/users.db
+2023-12-12 16:11:53.321 Info SqliteUserRepository: Default journal_mode for /var/lib/emby/data/users.db is wal
+2023-12-12 16:11:53.520 Info ActivityRepository: Opening sqlite connection to /var/lib/emby/data/activitylog.db
+2023-12-12 16:11:53.584 Info ActivityRepository: Default journal_mode for /var/lib/emby/data/activitylog.db is wal
+2023-12-12 16:11:53.589 Info SqliteDisplayPreferencesRepository: Opening sqlite connection to /var/lib/emby/data/displaypreferences.db
+2023-12-12 16:11:53.599 Info NetworkManager: Detecting local network addresses
+2023-12-12 16:11:53.599 Info NetworkManager: networkInterface: Ethernet ens18, Speed: 4294967295000000, Description: ens18
+2023-12-12 16:11:53.599 Info NetworkManager: GatewayAddresses: 192.168.1.1
+2023-12-12 16:11:53.600 Info NetworkManager: UnicastAddresses: 192.168.1.174,fe80::be24:11ff:fe17:8272%2
+2023-12-12 16:11:53.600 Info NetworkManager: networkInterface: Loopback lo, Speed: -1, Description: lo
+2023-12-12 16:11:53.600 Info NetworkManager: GatewayAddresses: 
+2023-12-12 16:11:53.600 Info NetworkManager: UnicastAddresses: 127.0.0.1,::1
+2023-12-12 16:11:53.600 Info NetworkManager: networkInterface: Unknown tailscale0, Speed: -1, Description: tailscale0
+2023-12-12 16:11:53.600 Info NetworkManager: GatewayAddresses: 
+2023-12-12 16:11:53.600 Info NetworkManager: UnicastAddresses: fe80::cf2f:3d58:d995:80ba%3
+2023-12-12 16:11:53.601 Info NetworkManager: Detected local ip addresses: 192.168.1.174, fe80::be24:11ff:fe17:8272%2, 127.0.0.1, ::1, fe80::cf2f:3d58:d995:80ba%3
+2023-12-12 16:11:53.698 Info SqliteDisplayPreferencesRepository: Default journal_mode for /var/lib/emby/data/displaypreferences.db is wal
+2023-12-12 16:11:53.706 Info App: Adding HttpListener prefix http://+:8096/
+2023-12-12 16:11:56.909 Info AuthenticationRepository: Opening sqlite connection to /var/lib/emby/data/authentication.db
+2023-12-12 16:11:56.919 Info AuthenticationRepository: Default journal_mode for /var/lib/emby/data/authentication.db is wal
+2023-12-12 16:11:56.921 Info SqliteItemRepository: Opening sqlite connection to /var/lib/emby/data/library.db
+2023-12-12 16:11:56.962 Info SqliteItemRepository: Default journal_mode for /var/lib/emby/data/library.db is wal
+2023-12-12 16:11:56.963 Info SqliteItemRepository: cache_size is -98304
+2023-12-12 16:11:56.963 Info SqliteItemRepository: page_size is 4096
+2023-12-12 16:11:57.760 Info FfmpegManager: FFMpeg: /opt/emby-server/bin/ffmpeg
+2023-12-12 16:11:57.760 Info FfmpegManager: FFProbe: /opt/emby-server/bin/ffprobe
+2023-12-12 16:11:57.761 Info FfmpegManager: FFDetect: /opt/emby-server/bin/ffdetect
+2023-12-12 16:11:58.162 Info Skia: SkiaSharp version: 2.80.0.0
+2023-12-12 16:11:58.171 Info NewMediaReportNotification - TaskNotifictionReport: NewMediaReportNotification Loaded
+2023-12-12 16:11:58.172 Info UserActivityReportNotification - TaskNotifictionReport: UserActivityReportNotification Loaded
+2023-12-12 16:11:58.172 Info PlaybackReporting - TaskRunBackup: TaskCleanDb Loaded
+2023-12-12 16:11:58.189 Info TaskManager: Daily trigger for Trim Db set to fire at 12/13/2023 00:05:00, which is 473.0301761516667 minutes from now.
+2023-12-12 16:11:58.190 Info TaskManager: Daily trigger for Create Playlists set to fire at 12/13/2023 03:00:00, which is 648.0301606116667 minutes from now.
+2023-12-12 16:11:58.190 Info TaskManager: Daily trigger for New Media Notification set to fire at 12/13/2023 06:00:00, which is 828.0301553533334 minutes from now.
+2023-12-12 16:11:58.191 Info TaskManager: Daily trigger for User Activity Notification set to fire at 12/13/2023 00:20:00, which is 488.0301501916667 minutes from now.
+2023-12-12 16:11:58.264 Info TaskManager: Daily trigger for Thumbnail image extraction set to fire at 12/13/2023 02:00:00, which is 588.0289288 minutes from now.
+2023-12-12 16:11:58.423 Info TaskManager: Daily trigger for Rotate log file set to fire at 12/13/2023 00:00:00, which is 468.0262746083333 minutes from now.
+2023-12-12 16:11:58.446 Info App: ServerId: d86788585de24deea0ca865d0d872d17
+2023-12-12 16:11:58.479 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2023-12-12 16:11:58.526 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.0470356 seconds
+2023-12-12 16:11:58.526 Info App: Starting entry point Emby.Server.Implementations.Networking.RemoteAddressEntryPoint
+2023-12-12 16:11:58.527 Info App: Loading data from /var/lib/emby/data/wan.dat
+2023-12-12 16:11:58.530 Info App: Entry point completed: Emby.Server.Implementations.Networking.RemoteAddressEntryPoint. Duration: 0.0037915 seconds
+2023-12-12 16:11:58.530 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2023-12-12 16:11:58.530 Info App: Loading data from /var/lib/emby/data/connect.txt
+2023-12-12 16:11:58.531 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0012136 seconds
+2023-12-12 16:11:58.531 Info App: Core startup complete
+2023-12-12 16:11:58.531 Info App: Post-init migrations complete
+2023-12-12 16:11:58.531 Info App: Starting entry point MovieDb.Security.PluginStartup
+2023-12-12 16:11:58.532 Info App: Entry point completed: MovieDb.Security.PluginStartup. Duration: 0.0012092 seconds
+2023-12-12 16:11:58.532 Info App: Starting entry point playback_reporting.EventMonitorEntryPoint
+2023-12-12 16:11:58.532 Info PlaybackReporting - EventMonitorEntryPoint: EventMonitorEntryPoint Running
+2023-12-12 16:11:58.533 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : Creating
+2023-12-12 16:11:58.533 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : CreateConnection : /var/lib/emby/data/playback_reporting.db
+2023-12-12 16:11:58.573 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : ConnectionCreated : 51151019
+2023-12-12 16:11:58.573 Info PlaybackReporting - EventMonitorEntryPoint: ActivityRepository : New Instance Created : 57705992
+2023-12-12 16:11:58.574 Info PlaybackReporting - EventMonitorEntryPoint: Table Actual Cols : DateCreated DATETIME, UserId TEXT, ItemId TEXT, ItemType TEXT, ItemName TEXT, PlaybackMethod TEXT, ClientName TEXT, DeviceName TEXT, PlayDuration INT, PauseDuration INT, RemoteAddress TEXT, TranscodeReasons TEXT
+2023-12-12 16:11:58.574 Info PlaybackReporting - EventMonitorEntryPoint: Table Alter SQL : 
+2023-12-12 16:11:58.574 Info App: Entry point completed: playback_reporting.EventMonitorEntryPoint. Duration: 0.0420245 seconds
+2023-12-12 16:11:58.574 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2023-12-12 16:11:58.575 Info PlaybackReporting - EventMonitorEntryPoint: PlaybackMonitoringTask : Started
+2023-12-12 16:11:58.675 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.1010422 seconds
+2023-12-12 16:11:58.675 Info App: Starting entry point Tvdb.EntryPoint
+2023-12-12 16:11:58.676 Info App: Entry point completed: Tvdb.EntryPoint. Duration: 7.68E-05 seconds
+2023-12-12 16:11:58.676 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2023-12-12 16:11:58.676 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 6.12E-05 seconds
+2023-12-12 16:11:58.676 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2023-12-12 16:11:58.676 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.000108 seconds
+2023-12-12 16:11:58.676 Info App: Starting entry point Emby.Notifications.NotificationManager
+2023-12-12 16:11:58.679 Info NotificationManager: Registering event nofitier Webhooks
+2023-12-12 16:11:58.684 Info App: Entry point completed: Emby.Notifications.NotificationManager. Duration: 0.0078879 seconds
+2023-12-12 16:11:58.684 Info App: Starting entry point Emby.Webhooks.ConfigurationUpgradeEntryPoint
+2023-12-12 16:11:58.686 Info App: Entry point completed: Emby.Webhooks.ConfigurationUpgradeEntryPoint. Duration: 0.002031 seconds
+2023-12-12 16:11:58.686 Info App: Starting entry point NfoMetadata.EntryPoint
+2023-12-12 16:11:58.686 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.0001093 seconds
+2023-12-12 16:11:58.686 Info App: Starting entry point Emby.Api.ApiEntryPoint
+2023-12-12 16:11:58.686 Info App: Entry point completed: Emby.Api.ApiEntryPoint. Duration: 4.48E-05 seconds
+2023-12-12 16:11:58.686 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2023-12-12 16:11:58.687 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0009986 seconds
+2023-12-12 16:11:58.687 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2023-12-12 16:11:58.687 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0002843 seconds
+2023-12-12 16:11:58.687 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2023-12-12 16:11:58.701 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.0138201 seconds
+2023-12-12 16:11:58.701 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2023-12-12 16:11:58.701 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0002442 seconds
+2023-12-12 16:11:58.702 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2023-12-12 16:11:58.702 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 8.02E-05 seconds
+2023-12-12 16:11:58.702 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2023-12-12 16:11:58.703 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0010828 seconds
+2023-12-12 16:11:58.703 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2023-12-12 16:11:58.704 Info LibraryMonitor: Watching directory /home/media/tv
+2023-12-12 16:11:58.704 Info LibraryMonitor: Watching directory /home/media/movie
+2023-12-12 16:11:58.704 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0013918 seconds
+2023-12-12 16:11:58.704 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2023-12-12 16:11:58.704 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0002563 seconds
+2023-12-12 16:11:58.704 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2023-12-12 16:11:58.705 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0002402 seconds
+2023-12-12 16:11:58.705 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2023-12-12 16:11:58.705 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0001001 seconds
+2023-12-12 16:11:58.705 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2023-12-12 16:11:58.706 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0013364 seconds
+2023-12-12 16:11:58.706 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2023-12-12 16:11:58.708 Info LiveTV: Loading live tv data from /var/lib/emby/data/livetv/timers
+2023-12-12 16:11:58.708 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.0018716 seconds
+2023-12-12 16:11:58.708 Info App: Starting entry point Emby.LiveTV.UpgradeChannelOptionsEntryPoint
+2023-12-12 16:11:58.709 Info App: Entry point completed: Emby.LiveTV.UpgradeChannelOptionsEntryPoint. Duration: 0.0006498 seconds
+2023-12-12 16:11:58.709 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2023-12-12 16:11:58.709 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0002893 seconds
+2023-12-12 16:11:58.709 Info App: Starting entry point Emby.ActivityLog.ActivityLogEntryPoint
+2023-12-12 16:11:58.710 Info App: Entry point completed: Emby.ActivityLog.ActivityLogEntryPoint. Duration: 0.0007161 seconds
+2023-12-12 16:11:58.710 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2023-12-12 16:11:58.710 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0005154 seconds
+2023-12-12 16:11:58.710 Info App: Starting entry point Emby.Notifications.Notifications
+2023-12-12 16:11:58.711 Info App: Entry point completed: Emby.Notifications.Notifications. Duration: 0.0001359 seconds
+2023-12-12 16:11:58.711 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
+2023-12-12 16:11:58.713 Info App: SyncRepository Initialize taking write lock
+2023-12-12 16:11:58.713 Info App: SyncRepository Initialize write lock taken
+2023-12-12 16:11:58.713 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0024723 seconds
+2023-12-12 16:11:58.713 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2023-12-12 16:11:58.714 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0011125 seconds
+2023-12-12 16:11:58.714 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2023-12-12 16:11:58.714 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 5.34E-05 seconds
+2023-12-12 16:11:58.714 Info App: All entry points have started
+2023-12-12 16:11:59.265 Info App: Init BeginReceive on 0.0.0.0
+2023-12-12 16:11:59.265 Info App: Init BeginReceive on 0.0.0.0
+2023-12-12 16:11:59.265 Info App: Init BeginReceive on 192.168.1.174
+2023-12-12 16:11:59.265 Info App: Init BeginReceive on 127.0.0.1
+2023-12-12 16:12:01.439 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2023-12-12 16:12:01.439 Info HttpClient: GET https://api.github.com/repos/MediaBrowser/Emby.Releases/releases
+2023-12-12 16:12:01.447 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Execute: /opt/emby-server/bin/ffmpeg -hide_banner -version
+2023-12-12 16:12:02.366 Info HttpClient: GetTempFileResponse url: https://embydata.com/admin/service/packageFiles/MovieDb.dll_1.7.4.exe
+2023-12-12 16:12:02.366 Info HttpClient: GET https://embydata.com/admin/service/packageFiles/MovieDb.dll_1.7.4.exe
+2023-12-12 16:12:02.596 Info InstallationManager: Plugin updated: MovieDb 1.7.4 Release
+2023-12-12 16:12:03.307 Info App: Emby Server needs to be restarted.
+2023-12-12 16:12:03.307 Info HttpClient: GetTempFileResponse url: https://embydata.com/admin/service/packageFiles/Tvdb.dll_1.4.2.exe
+2023-12-12 16:12:03.307 Info HttpClient: GET https://embydata.com/admin/service/packageFiles/Tvdb.dll_1.4.2.exe
+2023-12-12 16:12:03.345 Info InstallationManager: New plugin installed: Tvdb 1.4.2 Release
+2023-12-12 16:12:03.345 Info App: Emby Server needs to be restarted.
+2023-12-12 16:12:03.444 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0 - Succeeded
+2023-12-12 16:12:03.524 Info SoftwareCodecProvider: h264, libx264, x264 Software Encoder, V-E-libx264
+2023-12-12 16:12:03.524 Info SoftwareCodecProvider: hevc, libx265, x265 Software Encoder, V-E-libx265
+2023-12-12 16:12:03.524 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2023-12-12 16:12:03.524 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2023-12-12 16:12:03.524 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2023-12-12 16:12:03.526 Info SoftwareCodecProvider: h264, libx264, x264 Software Encoder, V-E-libx264
+2023-12-12 16:12:03.526 Info SoftwareCodecProvider: hevc, libx265, x265 Software Encoder, V-E-libx265
+2023-12-12 16:12:03.526 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2 Software Encoder, V-E-mpeg4
+2023-12-12 16:12:03.526 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3) Software Encoder, V-E-msmpeg4
+2023-12-12 16:12:03.526 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2023-12-12 16:12:03.536 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2023-12-12 16:12:03.548 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0 - Succeeded
+2023-12-12 16:12:03.616 Info VaapiCodecProvider: Adapter #0: 'Device 4660:4369' Id:4369 (Driver: , Vendor: 4660)
+2023-12-12 16:12:03.619 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2023-12-12 16:12:03.629 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0 - Succeeded
+2023-12-12 16:12:03.687 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /opt/emby-server/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2023-12-12 16:12:03.689 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-12-12 16:12:03.740 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed
+2023-12-12 16:12:03.748 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-12-12 16:12:03.751 Error PortMapper: Error in GetSpecificMappingAsync
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-15-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>714</errorCode><errorDescription>NoSuchEntryInArray</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.GetSpecificMappingAsync(Protocol protocol, Int32 publicPort, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-12-12 16:12:03.756 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-12-12 16:12:03.757 Error PortMapper: Error creating port map
+	*** Error Report ***
+	Version: 4.7.14.0
+	Command line: /opt/emby-server/system/EmbyServer.dll -programdata /var/lib/emby -ffdetect /opt/emby-server/bin/ffdetect -ffmpeg /opt/emby-server/bin/ffmpeg -ffprobe /opt/emby-server/bin/ffprobe -restartexitcode 3 -updatepackage emby-server-deb_{version}_amd64.deb
+	Operating system: Linux version 6.1.0-15-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT
+	Framework: .NET 6.0.20
+	OS/Process: x64/x64
+	Runtime: opt/emby-server/system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /var/lib/emby
+	Application path: /opt/emby-server/system
+	MediaBrowser.Model.Net.HttpException: MediaBrowser.Model.Net.HttpException: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsyncInternal(HttpRequestOptions options, String httpMethod)
+	   at Emby.Server.Implementations.HttpClientManager.CoreHttpClientManager.SendAsync(HttpRequestOptions options, String httpMethod)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMapInternal(Mapping mapping, CancellationToken cancellationToken)
+	   at Mono.Nat.Upnp.UpnpNatDevice.CreatePortMap(Mapping mapping, CancellationToken cancellationToken)
+	   at Emby.PortMapper.ExternalPortForwarding.CreateRules(INatDevice device, CancellationToken cancellationToken)
+	Source: Emby.Server.Implementations
+	TargetSite: Void MoveNext()
+	
+2023-12-12 16:12:03.758 Error HttpClient: <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>718</errorCode><errorDescription>ConflictInMappingEntry</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+2023-12-12 16:12:03.904 Info CodecManager: CodecList:
+2023-12-12 16:12:58.421 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2023-12-12 16:12:58.423 Info LibraryMonitor: Stopping directory watching for path /home/media/movie
+2023-12-12 16:12:58.424 Info LibraryMonitor: Stopping directory watching for path /home/media/tv
+2023-12-12 16:12:58.447 Info LiveTvManager: Emby Live TV and DVR requires an active Emby Premiere subscription.
+2023-12-12 16:12:58.457 Info LiveTV: Loading live tv data from /var/lib/emby/data/livetv/seriestimers
+2023-12-12 16:12:58.734 Info LibraryMonitor: Watching directory /home/media/movie
+2023-12-12 16:12:58.734 Info LibraryMonitor: Watching directory /home/media/tv
+2023-12-12 16:17:07.180 Info Server: Stopping HttpListener...
+2023-12-12 16:17:07.185 Info Server: HttpListener stopped
+2023-12-12 16:17:07.185 Info App: Disposing CoreAppHost
+2023-12-12 16:17:07.186 Info App: Disposing LoopUtilEntryPoint
+2023-12-12 16:17:07.186 Info App: Disposing SyncNotificationEntryPoint
+2023-12-12 16:17:07.187 Info App: Disposing SyncManagerEntryPoint
+2023-12-12 16:17:07.188 Info App: DisposeConnection
+2023-12-12 16:17:07.188 Info App: Disposing ConnectEntryPoint
+2023-12-12 16:17:07.188 Info App: Disposing Notifications
+2023-12-12 16:17:07.189 Info App: Disposing EncodingManagerEntryPoint
+2023-12-12 16:17:07.189 Info App: Disposing ActivityLogEntryPoint
+2023-12-12 16:17:07.194 Info App: Disposing RecordingNotifier
+2023-12-12 16:17:07.196 Info App: Disposing UpgradeChannelOptionsEntryPoint
+2023-12-12 16:17:07.196 Info App: Disposing EntryPoint
+2023-12-12 16:17:07.196 Info App: Disposing ChannelsEntryPoint
+2023-12-12 16:17:07.196 Info App: Disposing UserDataChangeNotifier
+2023-12-12 16:17:07.197 Info App: Disposing SystemEvents
+2023-12-12 16:17:07.197 Info App: Disposing StartupWizard
+2023-12-12 16:17:07.197 Info App: Disposing ServerEventNotifier
+2023-12-12 16:17:07.198 Info App: Disposing LibraryChangedNotifier
+2023-12-12 16:17:07.199 Info App: Disposing KeepServerAwake
+2023-12-12 16:17:07.199 Info App: Disposing AutomaticRestartEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing LibraryMonitorStartup
+2023-12-12 16:17:07.199 Info App: Disposing DeviceAccessEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing RemoteAddressEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing UdpServerEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing ApiEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing EntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing ConfigurationUpgradeEntryPoint
+2023-12-12 16:17:07.199 Info App: Disposing NotificationManager
+2023-12-12 16:17:07.200 Info App: Disposing IntrosEntryPoint
+2023-12-12 16:17:07.200 Info App: Disposing PluginSecurityManager
+2023-12-12 16:17:07.200 Info App: Disposing EntryPoint
+2023-12-12 16:17:07.200 Info App: Disposing DlnaEntryPoint
+2023-12-12 16:17:07.201 Info App: Disposing ExternalPortForwarding
+2023-12-12 16:17:07.201 Info App: Disposing EventMonitorEntryPoint
+2023-12-12 16:17:07.201 Info App: Disposing PluginStartup
+2023-12-12 16:17:07.201 Info App: Disposing StrmMounter
+2023-12-12 16:17:07.201 Info App: Disposing DvdMounter
+2023-12-12 16:17:07.201 Info App: Disposing BlurayMounter
+2023-12-12 16:17:07.201 Info App: Disposing OpenSubtitleDownloader
+2023-12-12 16:17:07.202 Info App: Disposing HauppaugeTunerWindows
+2023-12-12 16:17:07.202 Info App: Disposing ActivityLogWebSocketListener
+2023-12-12 16:17:07.202 Info App: Disposing SessionWebSocketListener
+2023-12-12 16:17:07.202 Info App: Disposing ScheduledTasksWebSocketListener
+2023-12-12 16:17:07.203 Info App: Disposing SessionInfoWebSocketListener
+2023-12-12 16:17:07.203 Info App: Disposing SessionInfosWebSocketListener
+2023-12-12 16:17:07.204 Info App: Disposing SessionEventsWebSocketListener
+2023-12-12 16:17:07.204 Info App: Disposing EncodingManager
+2023-12-12 16:17:07.204 Info App: Disposing ActivityRepository
+2023-12-12 16:17:07.204 Info ActivityRepository: DisposeConnection
+2023-12-12 16:17:07.205 Info ActivityRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-12-12 16:17:07.205 Info ActivityRepository: Closing sqlite connection
+2023-12-12 16:17:07.838 Info App: Disposing MediaEncoder
+2023-12-12 16:17:07.838 Info App: Disposing SsdpDevicePublisher
+2023-12-12 16:17:07.841 Info App: Disposing SsdpCommunicationsServer
+2023-12-12 16:17:07.842 Info App: SsdpCommunicationsServer Disposing 4 sendSockets
+2023-12-12 16:17:07.842 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:1900
+2023-12-12 16:17:07.842 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:50406
+2023-12-12 16:17:07.842 Info App: SsdpCommunicationsServer disposing sendSocket from 192.168.1.174:36118
+2023-12-12 16:17:07.842 Info App: SsdpCommunicationsServer disposing sendSocket from 127.0.0.1:41163
+2023-12-12 16:17:07.842 Info App: Disposing LiveTvManager
+2023-12-12 16:17:07.842 Info App: Disposing SessionManager
+2023-12-12 16:17:07.842 Info App: Disposing ProviderManager
+2023-12-12 16:17:07.842 Info App: Disposing MediaSourceManager
+2023-12-12 16:17:07.843 Info App: Disposing ImageProcessor
+2023-12-12 16:17:07.843 Info App: Disposing ProcessManager
+2023-12-12 16:17:07.844 Info App: Disposing HttpListenerHost
+2023-12-12 16:17:07.844 Info Server: Stopping HttpListener...
+2023-12-12 16:17:07.844 Info Server: HttpListener stopped
+2023-12-12 16:17:07.844 Info App: Disposing LibraryMonitor
+2023-12-12 16:17:07.845 Info LibraryMonitor: Stopping directory watching for path /home/media/movie
+2023-12-12 16:17:07.845 Info LibraryMonitor: Stopping directory watching for path /home/media/tv
+2023-12-12 16:17:07.845 Info App: Disposing AuthenticationRepository
+2023-12-12 16:17:07.845 Info AuthenticationRepository: DisposeConnection
+2023-12-12 16:17:07.845 Info AuthenticationRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-12-12 16:17:07.845 Info AuthenticationRepository: Closing sqlite connection
+2023-12-12 16:17:07.845 Info App: Disposing SqliteUserDataRepository
+2023-12-12 16:17:07.845 Info SqliteUserDataRepository: DisposeConnection
+2023-12-12 16:17:07.845 Info App: Disposing SqliteItemRepository
+2023-12-12 16:17:07.845 Info SqliteItemRepository: DisposeConnection
+2023-12-12 16:17:07.845 Info SqliteItemRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-12-12 16:17:08.261 Info SqliteItemRepository: Closing sqlite connection
+2023-12-12 16:17:08.510 Info App: Disposing SqliteDisplayPreferencesRepository
+2023-12-12 16:17:08.510 Info SqliteDisplayPreferencesRepository: DisposeConnection
+2023-12-12 16:17:08.510 Info SqliteDisplayPreferencesRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-12-12 16:17:08.510 Info SqliteDisplayPreferencesRepository: Closing sqlite connection
+2023-12-12 16:17:08.511 Info App: Disposing SqliteUserRepository
+2023-12-12 16:17:08.511 Info SqliteUserRepository: DisposeConnection
+2023-12-12 16:17:08.511 Info SqliteUserRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2023-12-12 16:17:08.511 Info SqliteUserRepository: Closing sqlite connection

@@ -1,0 +1,35 @@
+#!/bin/sh
+
+set -e
+
+DIR=$(pwd)
+TDIR=$1
+MIRROR=$2
+DISKNUM=$3
+CDDIR=$4
+ARCHES=$5
+
+# Copy grub theme assets
+cp -r $BASEDIR/../../disc_menu/grub.cfg \
+      $CDDIR/boot/grub/
+
+cd $CDDIR
+
+fix_file() {
+    cp -v $BASEDIR/../../disc_menu/isolinux.cfg \
+          $BASEDIR/../../disc_menu/menu.cfg \
+          $BASEDIR/../../disc_menu/prompt.cfg \
+          $BASEDIR/../../disc_menu/txt.cfg \
+          $BASEDIR/../../disc_menu/rqtxt.cfg \
+          "$@"
+}
+
+if [ -d ../boot$DISKNUM/isolinux/ ]; then
+    fix_file ../boot$DISKNUM/isolinux/
+
+fi
+
+# Remove Debian's windows loader
+rm -f autorun.inf win32-loader.ini setup.exe
+
+find . -type f | grep -v ./md5sum.txt | xargs md5sum | sort -uk2 > md5sum.txt

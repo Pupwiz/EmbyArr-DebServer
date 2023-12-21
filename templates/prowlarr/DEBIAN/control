@@ -1,0 +1,9 @@
+Package: prowlarr
+Priority: extra
+Section: net
+Installed-Size: 64077864
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 3.2.2.5080 
+Provides: Prowlarr
+Description: Prowlarr indexing search app

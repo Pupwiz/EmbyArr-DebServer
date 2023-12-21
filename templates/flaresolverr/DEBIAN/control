@@ -1,0 +1,9 @@
+Package: flaresolverr
+Priority: extra
+Section: net
+Installed-Size:
+Maintainer: root@fileserver
+Architecture: amd64
+Version: 3.2.2.5080 
+Provides: Flaresolverr 
+Description: Flaresolverr prowlarr proxy manager

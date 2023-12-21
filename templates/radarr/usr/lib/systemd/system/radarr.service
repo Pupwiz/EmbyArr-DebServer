@@ -1,0 +1,14 @@
+[Unit]
+Description=Radarr Daemon
+After=syslog.target network.target transmission-daemon.service prowlarr.service
+[Service]
+User=media
+Group=media
+Type=simple
+
+ExecStart=/opt/Radarr/Radarr -nobrowser -data=/home/media/.config/Radarr/
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

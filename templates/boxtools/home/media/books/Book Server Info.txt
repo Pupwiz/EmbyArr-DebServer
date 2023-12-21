@@ -1,0 +1,49 @@
+## Install two software then read PDF to create the library well use Calibre-web to access it after that 
+## not the calibre-server
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+Creating a Service for the calibre Content Server
+sudo nano /etc/systemd/system/calibre-server.service
+
+calibre-server.service
+## startup service
+[Unit]
+Description=calibre content server
+After=network.target
+
+[Service]
+Type=simple
+User=sammy
+Group=sammy
+ExecStart=/opt/calibre/calibre-server /home/media/books --enable-local-write
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl enable calibre-server
+sudo systemctl start calibre-server
+
+wget https://github.com/janeczku/calibre-web/releases/download/0.6.16/calibre-web-0.6.16.tar.gz -P /opt
+mkdir -p /opt/calibre-web
+cd /opt
+tar xvf calibre-web-0.6.16.tar.gz --strip-components=1 -C /opt/calibre-web
+Install dependencies by running pip3 install --target vendor -r requirements.txt (python3.x). Alternativly set up a python virtual environment.
+pip3 install --target vendor -r /opt/calibre-web/requirements.txt
+Execute the command: python3 cps.py (or nohup python3 cps.py - recommended if you want to exit the terminal window)
+
+Default admin login:
+Username: admin
+Password: admin123
+
+calibredb add *.mobi - with-library /home/media/book 
+[Unit]
+Description=Calibre-Web
+
+[Service]
+Type=simple
+User=media
+ExecStart=/usr/bin/python /opt/calibre-web/cps.py
+WorkingDirectory=/opt/calibre-web
+
+[Install]
+WantedBy=multi-user.target
