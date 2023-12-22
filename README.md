@@ -7,7 +7,7 @@ just pop a usb stick into a barebones machine and have their own server. I would
 
 Special note: Use extreme caution as the installer doesn't ask any questions during install and I mean NONE....
 
-If you have extra drives that have data on them that you need to keep make sure that they are disconnected before using this installer..
+If you have extra drives that have data on them that you need to keep, make sure that they are disconnected before using this installer to prevent wiping data of a needed drive..!
 
 It is hard scripted to select sda hard drive and format it to ext4 wiping the disk. If there is only one disk at the time of install then it should only select the disk that you want the OS installed on.
 
