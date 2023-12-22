@@ -1,8 +1,7 @@
 Sharing my pesonal debian bookworm server build. This is mainly designed to be use as a home server with local access to your IP.
 
-I started this journey as friends made request to have access to my server. The loads started to get to much so this was designed and built for them to be able to just drop in a usb stick into 
-
-a barebones machine and have their own server. I would get access through tailscale for support and then they would slowly start learning on there own.
+I started this journey as friends made request to have access to my server. The loads started to get to much so this was designed and built for them to be able to 
+just pop a usb stick into a barebones machine and have their own server. I would get access through tailscale for support and then they would slowly start learning to use on their own.
 
 
 
