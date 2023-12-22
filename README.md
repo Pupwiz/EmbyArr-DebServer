@@ -2,7 +2,7 @@ Sharing my pesonal debian bookworm server build. This is mainly designed to be u
 
 
 
-1st off I am no coder or even programmer. Most if not all code is pulled from somewhere off the net from help sites or examples from other comunitties.
+1st off I am no coder or even programmer. Most, if not all code is pulled from somewhere off the net from help sites or examples from other comunitties.
 I was also intrested in keeping things as small as possible so the debian server gets only whats need to install the rest so if security is a problem you need to address these on your own.
 
 That being said feel free to make suggestions for improvements or better way to code something being done, I sometimes take the simple way around a problem. (not always the best)
