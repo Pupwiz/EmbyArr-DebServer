@@ -12,7 +12,7 @@ I recommend building and testing on VM or proxmox etc before you expose anything
 
 That being said feel free to make suggestions for improvements or better way to code something being done, I sometimes take the simple way around a problem. (not always the best)
 
-I have setup the main user as media and password as bookworm (already breaking the rule). I built the last version on Bookworm 12.4 on a VM with user media and pass bookworm. Apps login as admin/bookworm including main web
+I have setup the main user as media and password as bookworm (already breaking the rule). Tested last version on Bookworm 12.4 on a VM with user media and pass bookworm. Apps login as admin/bookworm including main web
 and are used throughout the install for logins and need change to suit your needs. I have included a preseed file which includes git in the repo to build the debian build envoirment, for this I just boot the netiso 
 into the vm and point it at the preseed file by switching to the help menu on the iso boot and suppling auto url=. After the net install is done clone the repo and run auto-build.sh. It will download and package 
 the programs into deb packages and build an installable debian ISO. The scripts have been designed to scan for your local network ip and use it for setting up access to the system.
