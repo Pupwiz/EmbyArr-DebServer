@@ -16,7 +16,7 @@ It is hard scripted to select sda hard drive and format it to ext4 wiping the di
 
 
 1st off I am no coder or even programmer. Most, if not all code is pulled from somewhere off the net from help sites or examples from other comunitties.
-I mainly intrested in keeping things as small as possible debian server based on this it gets only whats need to install all apps listed below. If security is a problem you need to address these on your own.
+I was mainly intrested in keeping things as small as possible debian server based on this it gets only whats need to install all apps listed below. If security is a problem you need to address these on your own.
 
 I recommend building and testing on VM or proxmox etc before you expose anything to the net.
 
