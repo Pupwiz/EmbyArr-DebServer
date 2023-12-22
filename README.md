@@ -1,7 +1,19 @@
-Sharing my pesonal debian bookworm server build. This is mainly designed to be use as a home server with local access to your IP.
+Sharing my pesonal debian bookworm server iso builder. This is mainly designed to be use as a home server with local access to your IP.
 
 I started this journey as friends made request to have access to my server. The loads started to get to much so this was designed and built for them to be able to 
-just pop a usb stick into a barebones machine and have their own server. I would get access through tailscale for support and then they would slowly start learning to use on their own.
+just pop a usb stick into a barebones machine and have their own server. I would then get access through tailscale for support and then they would slowly start learning to use on their own.
+
+
+
+Special note: Use extreme caution as the installer doesn't ask any questions during install and I mean NONE....
+
+If you have extra drives that have data on them that you need to keep make sure that they are disconnected before using this installer..
+
+It is hard scripted to select sda hard drive and format it to ext4 wiping the disk. If there is only one disk at the time of build then it should only select the disk 
+
+that you want the OS installed on.
+
+
 
 
 
