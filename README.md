@@ -15,18 +15,33 @@ You can rebuild the iso as many times as you want and each time the script shoul
 You will have to delete the tmp/ folder and re-run the script.
 
 What's installed
+
 Emby media server pre configured on boot - admin and bookworm login ( there is a jellyfin version in the build script but I have better luck porting stuff with emby)
+
 Sonarr - Shows downloading - preconfigured on boot for media
+
 Radarr - Movies downloading - preconfigured on boot for media
+
 Prowlarr - Indexer - preconfigured for Sonarr, Radarr Lidarr, and Readarr
+
 Lidarr - Music downloading - pre configured on boot for media
+
 Readarr - Book downloading - preconfigured on boot for media
+
 Qbittorrent  - torrent download preconfigured for Sonarr, Radarr Lidarr, and Readarr
+
 SABnzbd - nzb download pre configured but will error as you need to supply your own news reader access
+
 Unpackerr -preconfigure to unpack sonarr radarr lidarr and readarr downloads
+
 Flaresolverr - add to aid Prowlarr in bypassing cloudflare ques
+
 wsdd - Windows Net Browsing - https://packages.debian.org/unstable/net/wsdd (can be uninstalled if you don't need support to windows home pc)
+
 sickbeard_mp4_automator - https://github.com/mdhiggins/sickbeard_mp4_automator
+
 tailscale - for remote support - https://tailscale.com/ ( I use the personal key setting from tailscale to allow it to automatically connect to my tailscale hub for intial support this is disable in the required.sh script you need your own key see comments)
+
 Organizr - html web interface - pre configured with access to all the above ARR apps and cloudcmd https://github.com/causefx/Organizr
+
 Cloudcmd (with gritty) - https://cloudcmd.io/ (this can be considered a security risk because of it's access - use with caution and definatly change the pass)
