@@ -6,7 +6,7 @@ just pop a usb stick into a barebones machine and have their own server. I would
 
 
 1st off I am no coder or even programmer. Most, if not all code is pulled from somewhere off the net from help sites or examples from other comunitties.
-I was also intrested in keeping things as small as possible so the debian server gets only whats need to install the rest of the apps listed below. If security is a problem you need to address these on your own.
+I mainly intrested in keeping things as small as possible debian server based on this it gets only whats need to install all apps listed below. If security is a problem you need to address these on your own.
 
 I recommend building and testing on VM or proxmox etc before you expose anything to the net.
 
