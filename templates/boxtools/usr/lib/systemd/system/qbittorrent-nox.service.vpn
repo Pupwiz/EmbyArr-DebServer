@@ -1,6 +1,6 @@
 [Unit]
 Description=qBittorrent Command Line Client
-After=navpn.service network-online.target 
+After=navpn.service network-online.target socat-tcp8080.service
 Wants=network-online.target systemd-networkd-wait-online.service
 Requires=navpn.service
 StartLimitIntervalSec=500
